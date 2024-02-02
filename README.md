@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+![Red Square](https://via.placeholder.com/40.png/ff0000)
+
+### Hi there 👋
+
+<div style="width: 40px; height: 40px; background-color: red;"></div>
+
 <!--
 **1351618/1351618** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
