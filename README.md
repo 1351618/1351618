@@ -2,11 +2,10 @@
 
 ![Red Square](https://via.placeholder.com/40.png/ff0000)
 
-<style>
-  body {
-    background-color: green;
-  }
-</style>
+<div style="background-color: green; padding: 20px; border-radius: 5px;">
+  <h1>Привет, я Юзер!</h1>
+  <p>Добро пожаловать на мой профиль.</p>
+</div>
 
 <!--
 **1351618/1351618** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
