@@ -7,20 +7,24 @@
 
 <div align=center>
   <!-- Социальные ссылки -->
+  
+  
+  
  <h3  align="right">🌐 Socials:</h3>
 <p align="right">
    <a href="https://discord.com/users/1351618" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" width="32" height="32" /> </picture> </a> 
   <a href="https://www.github.com/1351618" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> 
   <a href="https://www.linkedin.com/in/sergei-kozhemyakin-736348269" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> 
-  <a href="https://www.x.com/https:/@sergeik80459734" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a></p>
+  <a href="https://www.x.com/https:/@sergeik80459734" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a>
+</p>
+
+ ![codewars](https://www.codewars.com/users/1351618/badges/large)
 
   <!-- lпожертвования -->
-
-  <h3  align="left">💰 Donating:</h3>
+<h3  align="left">💰 Donating:</h3>
    <a href="https://paypal.me/https://paypal.me/1351618" align="left">
       <img align="left"  width=190 src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Top Languages" />
-    </a>
-  
+  </a>
 </div>
 <hr>
 
@@ -91,18 +95,13 @@
         <a href="https://github.com/1351618" align="center">
           <img align="right" width=400 src="https://github-readme-stats.vercel.app/api/top-langs/?username=1351618&theme=gotham&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
         </a>
-
-
-
-    
-
   </div>
+  
   <br>
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=1351618&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 <hr>
-
 
 
 
