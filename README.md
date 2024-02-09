@@ -9,14 +9,15 @@
 
 <!-- ___🌐Socials, 📚Codewars, 💰Donating_______ -->
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <div>
+  <div>  
   <h5 style="color: #03ad03; text-shadow: 0px 0px 1px #03ad03, 0px 0px 2px #03ad03;">🌐 Socials:</h5>
-    <a href="https://discord.com/users/1351618">
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" style="margin-right: 10px;" />
-    </a>
+    <a href="https://discord.com/users/1351618"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" style="margin-right: 10px;" /></a>
+        &nbsp;&nbsp;
     <a href="https://www.github.com/1351618" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32"></a>
-<a href="https://www.linkedin.com/in/sergei-kozhemyakin-736348269" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32"></a>
-<a href="https://www.x.com/https:/@sergeik80459734" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32"></a>
+        &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/sergei-kozhemyakin-736348269" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32"></a>
+        &nbsp;&nbsp;
+    <a href="https://www.x.com/https:/@sergeik80459734" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32"></a>
   </div>
   <div>
     <h5 style="color: #03ad03; text-shadow: 0px 0px 1px #03ad03, 0px 0px 2px #03ad03;">📚 Codewars:</h5>
