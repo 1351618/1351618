@@ -13,13 +13,7 @@
     <a href="https://t.me/K1S17"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/640px-Telegram_logo.svg.png" width="32" height="32" alt="Telegram" style="margin-right: 10px;" /></a>
         &nbsp;&nbsp;
     <a href="https://wa.me/79939231608"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" width="32" height="32" alt="WhatsApp" style="margin-right: 10px;" /></a>
-    <!-- <a href="https://discord.com/users/1351618"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" style="margin-right: 10px;" /></a>
-        &nbsp;&nbsp; -->
-    <!-- <a href="https://www.github.com/1351618" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32"></a>
-        &nbsp;&nbsp; -->
-    <!-- <a href="https://www.linkedin.com/in/sergei-kozhemyakin-736348269" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32"></a>
-        &nbsp;&nbsp; -->
-    <!-- <a href="https://www.x.com/https:/@sergeik80459734" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32"></a> -->
+
   </div>
   <div>
     <h5 style="color: #03ad03; text-shadow: 0px 0px 1px #03ad03, 0px 0px 2px #03ad03;">📚 Codewars:</h5>

@@ -1,3 +1,8 @@
+@charset "UTF-8";
+:root {
+  --backСolor: #181313;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,11 +32,72 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--backСolor);
+}
+
+.nav {
+  color: #f0f8ff;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  height: 100%;
+  justify-content: center;
+}
+
+section {
+  height: 100vh;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .foto {
-  max-width: 1400px;
   width: 100%;
-  background-color: #181313;
-  height: 100vh;
+  height: 92%;
+}
+
+.my-skills {
+  overflow: hidden;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.my-skills__content {
+  display: flex;
+  width: 200%;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  animation: slide 110s linear infinite;
+}
+.my-skills__content span {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.my-skills__content span a {
+  margin-left: 20px;
+}
+.my-skills__content span a img {
+  height: 50px;
+  width: 50px;
+}
+.my-skills__content:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }/*# sourceMappingURL=index.css.map */
