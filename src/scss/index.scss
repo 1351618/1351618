@@ -32,10 +32,8 @@ body {
 }
 
 .nav {
-  color: #f0f8ff;
   position: fixed;
-  right: 0;
-  // top: 50%;
+  right: 2%;
   height: 100%;
   ul {
     display: flex;
@@ -43,6 +41,12 @@ body {
     gap: 2%;
     height: 100%;
     justify-content: center;
+    li {
+      height: 15px;
+      width: 15px;
+      background-color: #34c300;
+      border-radius: 50%;
+    }
   }
 }
 section {
