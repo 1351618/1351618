@@ -19,3 +19,20 @@ h3 {
   margin: 0;
   font-weight: normal;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto {
+  max-width: 1400px;
+  width: 100%;
+  background-color: #181313;
+  height: 100vh;
+
+  //   svg {
+  //     background-color: #fff;
+  //   }
+}
