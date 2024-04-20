@@ -19,8 +19,8 @@ resizeObserver.observe(parentDiv);
 
 const figureColor = "#34c300";
 
-function circlePath(percentage, R) {
-  const circumference = 2 * Math.PI * R;
+function circlePath(percentage, R, W, rotation) {
+  const circumference = W * Math.PI;
   const circle = document.createElementNS(
     "http://www.w3.org/2000/svg",
     "circle"
@@ -38,20 +38,25 @@ function circlePath(percentage, R) {
     "stroke-dashoffset",
     (1 - percentage / 100) * circumference
   );
+  circle.setAttribute(
+    "transform",
+    `rotate(${rotation}, ${widthSvg / 2}, ${heightSvg / 2})`
+  );
+
   svgUs.appendChild(circle);
 }
 
 let percent = 0;
 setInterval(() => {
-  percent === 100 ? (percent = 0) : percent++;
+  percent === 360 ? (percent = 0) : (percent += 0.1);
   renering();
-}, 50);
+}, 10);
 
 function renering() {
   svgUs.innerHTML = "";
-  circlePath(percent, 20);
-  circlePath(percent, 80);
-  circlePath(percent, 300);
+  circlePath(80, 20, 8, percent);
+  circlePath(50, 80, 10, percent);
+  circlePath(20, 300, 80, percent);
 }
 
 // // Создание круга

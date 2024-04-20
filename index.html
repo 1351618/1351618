@@ -8,14 +8,13 @@
   </head>
   <body>
     <nav class="nav">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+      <a class="active" href="#section0"></a>
+      <a href="#section1"></a>
+      <a href="#section2"></a>
+      <a href="#section3"></a>
     </nav>
-    <section>
+    <section id="section0">
+      <span class="line"></span>
       <div class="foto">
         <svg id="svgBackground" class=""></svg>
       </div>
@@ -27,8 +26,16 @@
       </div>
     </section>
 
-    <section>2</section>
+    <section id="section1">
+      <span class="line"></span>
+      <div class="about-me">about-me</div>
+      <div class="education">education</div>
+    </section>
+    <section id="section2"><span class="line"></span>2</section>
+    <section id="section3"><span class="line"></span>3</section>
+
     <script src="./src/js/svgBackground.js" type="module"></script>
     <script src="./src/js/mySkills.js" type="module"></script>
+    <script src="./src/js/nav.js" type="module"></script>
   </body>
 </html>

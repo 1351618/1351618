@@ -1,5 +1,6 @@
 :root {
   --backСolor: #181313;
+  --mainСolor: #34c300;
 }
 
 * {
@@ -23,31 +24,59 @@ h3 {
   margin: 0;
   font-weight: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--backСolor);
+  color: var(--mainСolor);
 }
 
 .nav {
   position: fixed;
   right: 2%;
-  height: 100%;
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-    height: 100%;
-    justify-content: center;
-    li {
-      height: 15px;
-      width: 15px;
-      background-color: #34c300;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2%;
+  z-index: 100;
+
+  a {
+    height: 15px;
+    width: 15px;
+    background-color: #2b9206;
+    border-radius: 50%;
+
+    position: relative;
+    display: inline-block;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      height: 30px;
+      width: 30px;
       border-radius: 50%;
     }
+
+    &::before {
+      background-color: unset;
+      top: -7px;
+      left: -7px;
+    }
+
+    &.active {
+      box-shadow: 0 0 4px var(--mainСolor), 0 0 8px var(--mainСolor),
+        0 0 16px var(--mainСolor);
+      background-color: #34c300;
+    }
   }
+  // }
 }
 section {
   height: 100vh;
@@ -56,6 +85,16 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+#section1 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .foto {
@@ -67,6 +106,15 @@ section {
   overflow: hidden;
   width: 100%;
   flex-grow: 1;
+  box-shadow: inset 0 0 2px var(--backСolor), inset 0 0 4px var(--backСolor),
+    inset 0 0 8px var(--backСolor);
+  background: linear-gradient(
+    to top,
+    var(--backСolor),
+    var(--mainСolor),
+    var(--backСolor)
+  );
+  border-radius: 40px;
 }
 .my-skills__content {
   display: flex;
@@ -99,4 +147,14 @@ section {
   100% {
     transform: translateX(-50%);
   }
+}
+
+.line {
+  border: 1px solid var(--mainСolor);
+  width: 80%;
+  position: absolute;
+  top: 10px;
+  border-radius: 1px;
+  box-shadow: 0 0 4px var(--mainСolor), 0 0 8px var(--mainСolor),
+    0 0 16px var(--mainСolor);
 }

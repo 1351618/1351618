@@ -113,8 +113,6 @@ const mySkillsData = [
   },
 ];
 
-console.log(mySkillsData);
-
 mySkillsData.forEach((val) => {
   const skill = `
     <a href=${val.link}>
