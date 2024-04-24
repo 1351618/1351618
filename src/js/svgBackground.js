@@ -21,10 +21,17 @@ resizeObserver.observe(parentDiv);
 const figureColor = "#34c300";
 
 let degrees = 0;
-setInterval(() => {
-  degrees === 360 ? (degrees = 0) : (degrees += 0.1);
+// setInterval(() => {
+//   degrees === 360 ? (degrees = 0) : (degrees += 0.1);
+//   renering();
+// }, 10);
+function animate() {
+  degrees = (degrees + 0.08) % 360; // Увеличиваем угол на 0.1 каждый кадр и ограничиваем его до 0-360 градусов
   renering();
-}, 10);
+  requestAnimationFrame(animate); // Запускаем следующий кадр анимации
+}
+
+animate(); // Запускаем анимацию
 
 /**
  * функция отрисовки кругов
