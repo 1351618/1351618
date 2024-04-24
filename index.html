@@ -134,14 +134,7 @@
     <!-- 🟢🟢🟢 -->
     <section id="section3">
       <span class="lineSection"></span>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          tenetur reiciendis deserunt esse iusto tempora ipsum voluptas libero
-          aliquid, pariatur temporibus laboriosam quas explicabo cupiditate, in
-          amet nam praesentium illum?
-        </p>
-      </div>
+      <div class="threeJs"></div>
       <div>
         <div class="title">
           <h1>my projects</h1>
@@ -156,7 +149,14 @@
         </p>
       </div>
     </section>
-
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.130.0/build/three.module.js"
+        }
+      }
+    </script>
+    <script src="./src/js/objThree.js" type="module"></script>
     <script src="./src/js/svgBackground.js" type="module"></script>
     <script src="./src/js/mySkills.js" type="module"></script>
     <script src="./src/js/nav.js" type="module"></script>

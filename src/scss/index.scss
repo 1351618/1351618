@@ -246,6 +246,13 @@ section {
   }
 }
 
+.threeJs {
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0%);
