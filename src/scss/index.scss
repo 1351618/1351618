@@ -86,13 +86,28 @@ section {
   position: relative;
 }
 
+// #section0 {
+//   overflow: hidden;
+// }
+.foto-face {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+  transform: translateX(-50%);
+}
+
 .foto {
   width: 100%;
   height: 92%;
   position: relative;
+  overflow: hidden;
 }
 .perform {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   display: flex;
