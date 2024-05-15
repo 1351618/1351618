@@ -132,6 +132,14 @@ section {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  button {
+    background-color: unset;
+    width: min-content;
+    padding: 5px;
+    border-radius: 50%;
+    color: $mainСolor;
+    text-wrap: nowrap;
+  }
   a {
     display: flex;
     gap: 6px;
@@ -232,7 +240,6 @@ section {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
-  // flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
 
@@ -241,11 +248,6 @@ section {
     align-items: center;
   }
 
-  // div {
-  // width: 50%;
-  // padding: 2%;
-  // position: relative;
-  // }
   p {
     padding-top: 20px;
   }

@@ -75,6 +75,10 @@ function renering() {
   circle(15, 20, degrees * 2);
   circle(200, 200, 360 - degrees);
   circle(110, 150, degrees - 6);
+  circle(400, 400, 360 - degrees * 2);
+  circle(15, 20, degrees * 2);
+  circle(200, 200, 360 - degrees);
+  circle(110, 150, degrees - 6);
   circle(400, 300, 0);
   circle(50, 56, 0);
   circle(0, 500, 0);
