@@ -130,12 +130,13 @@ section {
 }
 .contacts button {
   background-color: unset;
-  width: -moz-min-content;
-  width: min-content;
-  padding: 5px;
+  border: 1px solid #34c300;
+  box-shadow: 0 0 4px #34c300, 0 0 8px #34c300, inset 0 0 8px #34c300;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   color: #34c300;
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 .contacts a {
   display: flex;

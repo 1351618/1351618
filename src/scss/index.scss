@@ -134,8 +134,10 @@ section {
   gap: 6px;
   button {
     background-color: unset;
-    width: min-content;
-    padding: 5px;
+    border: 1px solid $mainСolor;
+    box-shadow: 0 0 4px $mainСolor, 0 0 8px $mainСolor, inset 0 0 8px $mainСolor;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     color: $mainСolor;
     white-space: nowrap;
