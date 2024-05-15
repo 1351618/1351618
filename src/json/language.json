@@ -2,21 +2,27 @@
   {
     "en": {
       "main": {
-        "name": "Kzhemiakin Sergei"
+        "name": "Kzhemiakin Sergei",
+        "location": "Cyprus, Limassol",
+        "jobTitle": "frontend developer"
       }
     }
   },
   {
     "ru": {
       "main": {
-        "name": "Кожемякин Сергей"
+        "name": "Кожемякин Сергей",
+        "location": "Кипр, Лимассол",
+        "jobTitle": "фронтенд-разработчик"
       }
     }
   },
   {
     "el": {
       "main": {
-        "name": "Kozhemyakin Sergey γεια σου"
+        "name": "Kozhemyakin Sergey",
+        "location": "Κύπρος, Λεμεσός",
+        "jobTitle": "frontend developer"
       }
     }
   }

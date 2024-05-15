@@ -1,11 +1,7 @@
 const langBtn = document.getElementById("lang-btn");
 
 const dataUrl = "./src/json/language.json";
-const lang = [
-  "en",
-  "ru",
-  // "el"
-];
+const lang = ["en", "ru", "el"];
 let data;
 let langIndex = 0; // Индекс выбранного языка
 
@@ -30,5 +26,7 @@ function translation() {
       selectedLang
     ];
     document.getElementById("name").innerHTML = writeLeng.main.name;
+    document.getElementById("location").innerHTML = writeLeng.main.location;
+    document.getElementById("jobTitle").innerHTML = writeLeng.main.jobTitle;
   }
 }
