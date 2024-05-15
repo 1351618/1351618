@@ -28,5 +28,19 @@ function translation() {
     document.getElementById("name").innerHTML = writeLeng.main.name;
     document.getElementById("location").innerHTML = writeLeng.main.location;
     document.getElementById("jobTitle").innerHTML = writeLeng.main.jobTitle;
+    document.getElementById("aboutMe").innerHTML = writeLeng.section1.aboutMe;
+    document.getElementById("aboutMeText").innerHTML =
+      writeLeng.section1.aboutMeText;
+    document.getElementById("education").innerHTML =
+      writeLeng.section1.education;
+    document.getElementById("educationText").innerHTML =
+      writeLeng.section1.educationText;
+    document.getElementById("workExperience").innerHTML =
+      writeLeng.section2.workExperience;
+    document.getElementById("workExperienceText").innerHTML =
+      writeLeng.section2.workExperienceText;
+    document.getElementById("skills").innerHTML = writeLeng.section2.skills;
+    document.getElementById("skillsText").innerHTML =
+      writeLeng.section2.skillsText;
   }
 }
