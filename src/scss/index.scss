@@ -240,14 +240,21 @@ section {
     align-items: center;
   }
 
-  div {
-    width: 50%;
-    padding: 2%;
-    position: relative;
-  }
+  // div {
+  // width: 50%;
+  // padding: 2%;
+  // position: relative;
+  // }
   p {
     padding-top: 20px;
   }
+}
+
+.my-project,
+.threeJs {
+  width: 50%;
+  padding: 2%;
+  position: relative;
 }
 
 .title {
@@ -265,6 +272,29 @@ section {
   canvas {
     width: 100% !important;
     height: auto !important;
+  }
+}
+
+.my-project__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.my-project__card {
+  border-radius: 10px;
+  border: 1px solid $mainСolor;
+  box-shadow: 0 0 4px $mainСolor, 0 0 8px $mainСolor, 0 0 16px $mainСolor;
+  overflow: hidden;
+  height: 350px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 100%;
+    object-fit: cover;
   }
 }
 

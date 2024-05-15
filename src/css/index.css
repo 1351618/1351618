@@ -237,13 +237,15 @@ section {
     align-items: center;
   }
 }
-#section3 div {
+#section3 p {
+  padding-top: 20px;
+}
+
+.my-project,
+.threeJs {
   width: 50%;
   padding: 2%;
   position: relative;
-}
-#section3 p {
-  padding-top: 20px;
 }
 
 .title h1 {
@@ -259,6 +261,30 @@ section {
 .threeJs canvas {
   width: 100% !important;
   height: auto !important;
+}
+
+.my-project__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.my-project__card {
+  border-radius: 10px;
+  border: 1px solid #34c300;
+  box-shadow: 0 0 4px #34c300, 0 0 8px #34c300, 0 0 16px #34c300;
+  overflow: hidden;
+  height: 350px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+.my-project__card img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @keyframes slide {
