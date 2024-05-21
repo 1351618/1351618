@@ -194,6 +194,8 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  min-height: 100vh;
+  height: 100%;
 }
 @media (max-width: 600px) {
   #section1 {
@@ -217,6 +219,8 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  min-height: 100vh;
+  height: 100%;
 }
 @media (max-width: 600px) {
   #section2 {
@@ -257,6 +261,9 @@ section {
   position: relative;
 }
 
+.title {
+  padding-bottom: 4%;
+}
 .title h1 {
   width: -moz-min-content;
   width: min-content;
