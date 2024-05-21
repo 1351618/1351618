@@ -270,7 +270,8 @@ section {
   padding-bottom: 4%;
   h1 {
     width: min-content;
-    text-wrap: nowrap;
+    // text-wrap: nowrap;
+    white-space: nowrap;
   }
   span {
     bottom: 0;

@@ -267,7 +267,7 @@ section {
 .title h1 {
   width: -moz-min-content;
   width: min-content;
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 .title span {
   bottom: 0;
