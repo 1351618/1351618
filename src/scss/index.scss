@@ -212,6 +212,9 @@ section {
     width: 50%;
     padding: 2%;
     position: relative;
+    @media (max-width: 600px) {
+      width: 80%;
+    }
   }
   p {
     padding-top: 20px;
@@ -236,6 +239,9 @@ section {
     width: 50%;
     padding: 2%;
     position: relative;
+    @media (max-width: 600px) {
+      width: 80%;
+    }
   }
   p {
     padding-top: 20px;
