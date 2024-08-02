@@ -1,0 +1,336 @@
+<html><head><base href="https://websim.ai/resume/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сергей Кожемяки - Фронтенд Разработчик</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+  :root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #e74c3c;
+    --text-color: #ecf0f1;
+    --background-color: #1a1a1a;
+    --card-background: #2c2c2c;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+  }
+
+  header {
+    grid-column: span 12;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--accent-color);
+    margin: 0 auto 1rem;
+    overflow: hidden;
+  }
+
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .profile-photo:hover img {
+    transform: scale(1.1);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+
+  .sidebar {
+    grid-column: span 3;
+  }
+
+  .main-content {
+    grid-column: span 9;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  section {
+    background-color: var(--card-background);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  section:hover {
+    transform: translateY(-5px);
+  }
+
+  h2 {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .skill {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .skill:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+  }
+
+  .experience-item, .education-item {
+    margin-bottom: 1.5rem;
+  }
+
+  .date {
+    color: var(--accent-color);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .portfolio-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(231, 76, 60, 0.9);
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+
+  .portfolio-item:hover .portfolio-item-overlay {
+    transform: translateY(0);
+  }
+
+  .portfolio-item-title {
+    color: var(--text-color);
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .portfolio-item-description {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--text-color);
+  }
+
+  @media (max-width: 1200px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sidebar, .main-content {
+      grid-column: span 1;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-photo">
+        <img alt="Фотография Сергея Кожемяки, улыбающегося мужчины с короткими темными волосами и очками, одетого в синюю рубашку" src="https://websim.ai/resume/sergey-kozhemyaki.jpg" width="150" height="150">
+      </div>
+      <h1>Сергей Кожемяки</h1>
+      <p class="subtitle">Фронтенд Разработчик</p>
+    </header>
+
+    <aside class="sidebar">
+      <section>
+        <h2>Контакты</h2>
+        <p>Email: sergey.kozhemyaki@example.com</p>
+        <p>Телефон: +7 (999) 123-45-67</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sergeykozhemyaki">linkedin.com/in/sergeykozhemyaki</a></p>
+        <p>GitHub: <a href="https://github.com/skozhemyaki">github.com/skozhemyaki</a></p>
+      </section>
+      <section>
+        <h2>Навыки</h2>
+        <div class="skills">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript (ES6+)</span>
+          <span class="skill">React</span>
+          <span class="skill">Vue.js</span>
+          <span class="skill">TypeScript</span>
+          <span class="skill">Webpack</span>
+          <span class="skill">Git</span>
+          <span class="skill">Responsive Design</span>
+          <span class="skill">CSS-in-JS</span>
+        </div>
+      </section>
+      <section>
+        <h2>Образование</h2>
+        <div class="education-item">
+          <h3>Бакалавр Компьютерных Наук</h3>
+          <p class="date">Московский Государственный Технический Университет | 2016</p>
+          <p>Специализация в веб-разработке и информационных системах</p>
+        </div>
+      </section>
+    </aside>
+
+    <main class="main-content">
+      <section>
+        <h2>Обо мне</h2>
+        <p>Я опытный фронтенд разработчик, специализирующийся на создании современных, отзывчивых и интуитивно понятных веб-приложений. Мой подход основан на принципах чистого кода, оптимизации производительности и создании превосходного пользовательского опыта.</p>
+      </section>
+
+      <section>
+        <h2>Опыт работы</h2>
+        <div class="experience-item">
+          <h3>Старший Фронтенд Разработчик</h3>
+          <p class="date">ТехноСофт | Январь 2019 - Настоящее время</p>
+          <ul>
+            <li>Разработка и поддержка крупномасштабных веб-приложений с использованием React и TypeScript</li>
+            <li>Оптимизация производительности фронтенда, улучшение времени загрузки на 40%</li>
+            <li>Внедрение современных практик разработки, включая CI/CD и автоматическое тестирование</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Фронтенд Разработчик</h3>
+          <p class="date">ИнноВеб | Март 2016 - Декабрь 2018</p>
+          <ul>
+            <li>Создание отзывчивых пользовательских интерфейсов с использованием HTML5, CSS3 и JavaScript</li>
+            <li>Разработка и интеграция REST API для динамического обновления контента</li>
+            <li>Сотрудничество с дизайнерами для реализации визуальных концепций</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Портфолио</h2>
+        <div class="portfolio">
+          <div class="portfolio-item">
+            <img alt="Скриншот интерактивной дашборд панели с графиками и диаграммами" src="https://websim.ai/resume/dashboard-project.jpg" width="300" height="200">
+            <div class="portfolio-item-overlay">
+              <h3 class="portfolio-item-title">Интерактивная Дашборд Панель</h3>
+              <p class="portfolio-item-description">Разработка комплексной дашборд панели с динамической визуализацией данных, использующей D3.js и React.</p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img alt="Скриншот главной страницы E-commerce платформы с товарами и корзиной" src="https://websim.ai/resume/ecommerce-project.jpg" width="300" height="200">
+            <div class="portfolio-item-overlay">
+              <h3 class="portfolio-item-title">E-commerce Платформа</h3>
+              <p class="portfolio-item-description">Создание масштабируемого фронтенда для E-commerce платформы с корзиной покупок, оформлением заказа и интеграцией платежных систем.</p>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img alt="Скриншот мобильного приложения для планирования задач" src="https://websim.ai/resume/todo-app-project.jpg" width="300" height="200">
+            <div class="portfolio-item-overlay">
+              <h3 class="portfolio-item-title">Мобильное Приложение ToDo</h3>
+              <p class="portfolio-item-description">Разработка кроссплатформенного мобильного приложения для управления задачами с использованием React Native.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const skills = document.querySelectorAll('.skill');
+      skills.forEach(skill => {
+        skill.addEventListener('mouseover', function() {
+          this.style.transform = 'scale(1.1) translateY(-2px)';
+        });
+        skill.addEventListener('mouseout', function() {
+          this.style.transform = 'scale(1) translateY(0)';
+        });
+      });
+
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+      portfolioItems.forEach(item => {
+        item.addEventListener('mouseenter', function() {
+          this.querySelector('.portfolio-item-overlay').style.transform = 'translateY(0)';
+        });
+        item.addEventListener('mouseleave', function() {
+          this.querySelector('.portfolio-item-overlay').style.transform = 'translateY(100%)';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
