@@ -43,6 +43,7 @@ function translation() {
     DG("jobTitle").innerHTML = writeLeng.main.jobTitle;
     DG("intro").innerHTML = writeLeng.aboutMe.aboutMeText;
     DG("skills").querySelector("h2").innerHTML = writeLeng.techStack.title;
+    DG("works").querySelector("h2").innerHTML = writeLeng.projects.title;
     //   document.getElementById("education").innerHTML =
     //     writeLeng.section1.education;
     //   document.getElementById("educationText").innerHTML =

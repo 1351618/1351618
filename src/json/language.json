@@ -6,12 +6,7 @@
         "location": "Cyprus, Limassol",
         "jobTitle": "frontend-developer"
       },
-      "aboutMe": {
-        "title": "About-me",
-        "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
-        "education": "education",
-        "educationText": "2006 <br> Far Eastern Higher Military Command School (Military Institute) named after. K.K. Rokossovsky (branch) of the Military Educational and Scientific Center of the Ground Forces 'Combined Arms Academy of the RF Armed Forces', Blagoveshchensk (Amur Region) <br> Management, Personnel Management <br> 2002 <br> Blagoveshchensk State Pedagogical University named after. M.I. Kalinina, Blagoveshchensk (Amur region) <br> Physical Culture, Teacher of physical education and sports "
-      },
+
       "aboutMe": {
         "title": "About-me",
         "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
@@ -28,6 +23,9 @@
       },
       "techStack": {
         "title": "Tech stack"
+      },
+      "projects": {
+        "title": "Projects"
       }
     }
   },
@@ -52,6 +50,9 @@
       },
       "techStack": {
         "title": "Технический стек"
+      },
+      "projects": {
+        "title": "Проекты"
       }
     }
   },
@@ -76,6 +77,9 @@
       },
       "techStack": {
         "title": "Τεχνική στοίβα"
+      },
+      "projects": {
+        "title": "Εργα"
       }
     }
   }
