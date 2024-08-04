@@ -1,5 +1,8 @@
 const one = document.querySelector(".one");
 const two = document.querySelector(".two");
+
+const skills = document.querySelector(".skills");
+
 const mySkillsData = [
   {
     name: "JavaScript",
@@ -27,7 +30,7 @@ const mySkillsData = [
     link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
   },
   {
-    name: "NextJs",
+    name: "Next",
     icon: "https://www.openxcell.com/wp-content/uploads/2021/11/dango-inner-2.png",
     link: "https://nextjs.org/docs",
   },
@@ -111,6 +114,21 @@ const mySkillsData = [
     icon: "https://d3js.org/logo.svg",
     link: "https://d3js.org/",
   },
+  {
+    name: "Express",
+    icon: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
+    link: "https://expressjs.com/",
+  },
+  {
+    name: "WordPress",
+    icon: "https://static.vecteezy.com/system/resources/thumbnails/020/975/579/small/wordpress-logo-wordpress-icon-transparent-free-png.png",
+    link: "https://wordpress.com/",
+  },
+  {
+    name: "Moguta",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyqhUPdFVd4l2U-XvXxypZ2G2QVRvPYDB5g&s",
+    link: "https://moguta.ru/",
+  },
 ];
 
 mySkillsData.forEach((val) => {
@@ -124,4 +142,10 @@ mySkillsData.forEach((val) => {
 
   one.innerHTML += skill;
   two.innerHTML += skill;
+
+  const skilP = document.createElement("span");
+  skilP.classList.add("skill");
+  skilP.textContent = val.name;
+
+  skills.appendChild(skilP);
 });

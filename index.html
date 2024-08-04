@@ -4,23 +4,24 @@
     <link rel="stylesheet" href="./src/css/index.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <!-- <base href="https://websim.ai/resume/" /> -->
-    <title>Сергей Кожемяки - Архитектор Цифровых Систем</title>
+    <title>Сергей Кожемяки</title>
   </head>
   <body>
+    <!-- фоновое изображени -->
+    <div class="cyber-bg-img">
+      <img src="./src/img/5ee00017962ae3.88097194.jpg" alt="" />
+    </div>
+    <!-- фоновая анимация -->
     <div class="cyber-bg"></div>
+
     <div class="container">
-      <!-- <header> -->
-      <div class="header-content" id="header-content">
-        <h1 class="name">Сергей Кожемяки</h1>
-        <p class="title">Архитектор Цифровых Систем</p>
-        <p class="intro">
-          Опытный специалист в области разработки высоконагруженных систем и
-          инновационных веб-приложений. Мастер кодирования в цифровом
-          пространстве, создающий архитектуры будущего.
-        </p>
-      </div>
-      <div class="headrProfPhoto" id="headrProfPhoto">
+      <section class="header-content" id="header-content">
+        <h1 class="name" id="name"></h1>
+        <p class="title" id="jobTitle"></p>
+
+        <p class="intro" id="intro"></p>
+      </section>
+      <section class="headrProfPhoto" id="headrProfPhoto">
         <div class="profile-photo">
           <img
             alt="KSI photo02.png"
@@ -29,11 +30,11 @@
             height="200"
           />
         </div>
-      </div>
-      <!-- </header> -->
-      <!-- полоса со скилами -->
+        <button id="lang-btn"></button>
+      </section>
+
+      <!-- бегущая строка со скилами -->
       <section class="skilRunLine">
-        <!-- 123 -->
         <div class="my-skills__content">
           <span class="content one"></span>
           <span class="content two"></span>
@@ -41,23 +42,15 @@
       </section>
 
       <section id="skills">
-        <h2>Технологический Арсенал</h2>
-        <div class="skills">
-          <span class="skill">Квантовое Программирование</span>
-          <span class="skill">Нейронные Сети</span>
-          <span class="skill">Blockchain</span>
-          <span class="skill">IoT Системы</span>
-          <span class="skill">AR/VR Разработка</span>
-          <span class="skill">Кибербезопасность</span>
-          <span class="skill">AI-Driven Development</span>
-          <span class="skill">Квантовые Базы Данных</span>
-          <span class="skill">Нейроинтерфейсы</span>
-          <span class="skill">Голографические UI</span>
-        </div>
+        <h2></h2>
+        <span class="lineSection"></span>
+
+        <div class="skills"></div>
       </section>
 
       <section id="experience">
-        <h2>Хроники Цифровой Эволюции</h2>
+        <h2>Развитие и Достижения</h2>
+        <span class="lineSection"></span>
         <div class="experience-item">
           <h3>Главный Архитектор Цифровых Систем</h3>
           <p class="date">NeoTech Innovations | 2030 - Настоящее время</p>
@@ -88,6 +81,7 @@
 
       <section id="education">
         <h2>Квантовые Импринты Знаний</h2>
+        <span class="lineSection"></span>
         <div class="education-item">
           <h3>Доктор Квантовой Информатики</h3>
           <p class="date">Институт Технологической Сингулярности | 2028</p>
@@ -104,6 +98,7 @@
 
       <section id="projects">
         <h2>Порталы в Цифровое Будущее</h2>
+        <span class="lineSection"></span>
         <div class="projects-grid">
           <div class="project-item">
             <h3 class="project-title">NeuroLink</h3>
@@ -131,66 +126,45 @@
 
       <section id="works">
         <h2>Галерея Цифровых Шедевров</h2>
+        <span class="lineSection"></span>
         <div class="works-grid">
           <div class="work-item">
             <img
               class="work-image"
-              alt="Голографическое изображение Квантового Компаса с мерцающими звездными картами"
+              alt="guider.jpg"
               src="./src/img/guider.jpg"
               width="200"
               height="200"
             />
             <div class="work-overlay">
               <div class="work-text">
-                <h3 class="work-title">Квантовый Компас</h3>
+                <h3 class="work-title">guider.pro</h3>
                 <p class="work-description">
-                  Революционное устройство для навигации в многомерном
-                  космическом пространстве.
+                  Сайт, где вы найдете лучшие места для путешествий, отдыха и
+                  незабываемых локаций.<br />- Next.js
                 </p>
-                <a href="https://quantum-compass.space" target="_blank"
-                  >Подробнее</a
-                >
+                <a href="https://guider.pro" target="_blank">Посетить сайт</a>
               </div>
             </div>
           </div>
+
           <div class="work-item">
             <img
               class="work-image"
-              alt="Голографическое изображение Квантового Компаса с мерцающими звездными картами"
-              src="./src/img/guider.jpg"
+              alt="Интернет магазин One shot tattoo shop для мастеров татуировки и татуажа"
+              src="./src/img/oneshottattoo.shop.png"
               width="200"
               height="200"
             />
             <div class="work-overlay">
               <div class="work-text">
-                <h3 class="work-title">Квантовый Компас</h3>
+                <h3 class="work-title">oneshottattoo.shop</h3>
                 <p class="work-description">
-                  Революционное устройство для навигации в многомерном
-                  космическом пространстве.
+                  Интернет магазин One shot tattoo shop для мастеров татуировки
+                  и татуажа <br />- Moguta
                 </p>
-                <a href="https://quantum-compass.space" target="_blank"
-                  >Подробнее</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="work-item">
-            <img
-              class="work-image"
-              alt="Голографическое изображение Квантового Компаса с мерцающими звездными картами"
-              src="./src/img/guider.jpg"
-              width="200"
-              height="200"
-            />
-            <div class="work-overlay">
-              <div class="work-text">
-                <h3 class="work-title">Квантовый Компас</h3>
-                <p class="work-description">
-                  Революционное устройство для навигации в многомерном
-                  космическом пространстве.
-                </p>
-                <a href="https://quantum-compass.space" target="_blank"
-                  >Подробнее</a
+                <a href="https://oneshottattoo.shop/" target="_blank"
+                  >Посетить сайт</a
                 >
               </div>
             </div>
@@ -252,293 +226,8 @@
       <a href="#section3"></a>
     </nav>
 
-    <!-- 🟢🟢🟢 -->
-    <!-- <section id="section0">
-      <span class="lineSection"></span>
-
-      <div class="foto">
-        <svg id="svgBackground" class=""></svg>
-        <img class="foto-face" src="./src/img/photo.png" alt="" />
-        <div id="perform" class="perform">
-          <div class="contacts">
-            <button id="lang-btn">A&ndash;あ</button>
-            <h1 id="name"></h1>
-            <a href="https://t.me/+79939231608">
-              <svg class="icons">
-                <use xlink:href="./src/icons/icons.svg#telegramIcon"></use>
-              </svg>
-
-              <p>+ 7 993 923 16 08</p>
-            </a>
-
-            <a href="https://api.whatsapp.com/send?phone=79939231608">
-              <svg class="icons">
-                <use xlink:href="./src/icons/icons.svg#whatsappIcon"></use>
-              </svg>
-              <p>+ 7 993 923 16 08</p>
-            </a>
-            <a href="tel:+35795541637">
-              <svg class="icons">
-                <use xlink:href="./src/icons/icons.svg#phoneIcon"></use>
-              </svg>
-              <p>+ 357 95 541 637</p>
-            </a>
-            <a href="mailto:1351618@gmail.com">
-              <svg class="icons">
-                <use xlink:href="./src/icons/icons.svg#emailIcon"></use>
-              </svg>
-              <p>1351618@gmail.com</p>
-            </a>
-          </div>
-          <div class="dopInfo">
-            <div>
-              <svg class="icons">
-                <use xlink:href="./src/icons/icons.svg#locationIcon"></use>
-              </svg>
-              <p id="location"></p>
-            </div>
-            <h1 id="jobTitle"></h1>
-          </div>
-        </div>
-      </div>
-      <div class="my-skills">
-        <div class="my-skills__content">
-          <span class="content one"></span>
-          <span class="content two"></span>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- 🟢🟢🟢 -->
-    <!-- <section id="section1">
-      <span class="lineSection"></span>
-
-      <div>
-        <div class="title">
-          <h1 id="aboutMe"></h1>
-          <span class="lineSection"></span>
-        </div>
-
-        <p id="aboutMeText"></p>
-      </div>
-      <div>
-        <div class="title">
-          <h1 id="education"></h1>
-          <span class="lineSection"></span>
-        </div>
-
-        <p id="educationText"></p>
-      </div>
-    </section> -->
-
-    <!-- 🟢🟢🟢 -->
-    <!-- <section id="section2">
-      <span class="lineSection"></span>
-      <div>
-        <div class="title">
-          <h1 id="workExperience">work experience</h1>
-          <span class="lineSection"></span>
-        </div>
-
-        <p id="workExperienceText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          tenetur reiciendis deserunt esse iusto tempora ipsum voluptas libero
-          aliquid, pariatur temporibus laboriosam quas explicabo cupiditate, in
-          amet nam praesentium illum?
-        </p>
-      </div>
-
-      <div>
-        <div class="title">
-          <h1 id="skills">skills</h1>
-          <span class="lineSection"></span>
-        </div>
-
-        <p id="skillsText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus delectus tempore eum nemo temporibus doloremque
-          incidunt exercitationem repudiandae nam, rerum, quae cum sapiente
-          distinctio, minus magni assumenda quas ipsum nisi.
-        </p>
-      </div>
-    </section> -->
-
-    <!-- 🟢🟢🟢 -->
-    <section id="section3">
-      <span class="lineSection"></span>
-      <div></div>
-      <div class="my-project">
-        <div class="title">
-          <h1>my projects</h1>
-          <span class="lineSection"></span>
-        </div>
-
-        <div class="my-project__content">
-          <a href="https://guider.pro/">
-            <div class="my-project__card">
-              <img src="./src/img/guider.jpg" alt="guider/" />
-            </div>
-          </a>
-          <a href="https://github.com/1351618/mini_game_billiards">
-            <div class="my-project__card">
-              <img src="./src/img/billiard.jpg" alt="billiard" />
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="threeJs"></div>
-    </section>
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://cdn.jsdelivr.net/npm/three@0.130.0/build/three.module.js"
-        }
-      }
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", (event) => {
-        // Эффект появления секций
-        const sections = document.querySelectorAll("section");
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.style.opacity = 1;
-                entry.target.style.transform = "translateY(0) scale(1)";
-              }
-            });
-          },
-          { threshold: 0.1 }
-        );
-
-        sections.forEach((section) => {
-          section.style.opacity = 0;
-          section.style.transform = "translateY(20px) scale(0.9)";
-          section.style.transition = "opacity 0.5s ease, transform 0.5s ease";
-          observer.observe(section);
-        });
-
-        // Эффект свечения для навыков
-        const skills = document.querySelectorAll(".skill");
-        skills.forEach((skill) => {
-          skill.addEventListener("mousemove", (e) => {
-            const rect = skill.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            skill.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(0, 255, 157, 0.3), rgba(0, 255, 157, 0.1) 40%, rgba(0, 255, 157, 0) 60%)`;
-          });
-          skill.addEventListener("mouseleave", () => {
-            skill.style.background = "rgba(0, 255, 157, 0.1)";
-          });
-        });
-
-        // Эффект свечения для проектов и работ
-        const items = document.querySelectorAll(".project-item, .work-item");
-        items.forEach((item) => {
-          item.addEventListener("mousemove", (e) => {
-            const rect = item.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-
-            item.style.background = `
-              radial-gradient(
-                circle at ${x}px ${y}px,
-                rgba(0, 255, 157, 0.3) 0%,
-                rgba(0, 255, 157, 0.1) 20%,
-                rgba(0, 255, 157, 0) 50%
-              ),
-              rgba(0, 255, 157, 0.05)
-            `;
-
-            item.style.transform = `
-              perspective(1000px)
-              rotateY(${(x - rect.width / 2) / 10}deg)
-              rotateX(${(y - rect.height / 2) / -10}deg)
-              translateZ(10px)
-            `;
-          });
-
-          item.addEventListener("mouseleave", () => {
-            item.style.background = "rgba(0, 255, 157, 0.05)";
-            item.style.transform = "none";
-          });
-        });
-
-        // Эффект глитча для имени
-        const name = document.querySelector(".name");
-        let glitchInterval;
-
-        name.addEventListener("mouseover", () => {
-          clearInterval(glitchInterval);
-          glitchInterval = setInterval(() => {
-            name.style.textShadow = `
-              ${Math.random() * 10 - 5}px ${
-              Math.random() * 10 - 5
-            }px rgba(0, 255, 157, 0.7),
-              ${Math.random() * 10 - 5}px ${
-              Math.random() * 10 - 5
-            }px rgba(127, 255, 0, 0.7)
-            `;
-          }, 50);
-        });
-
-        name.addEventListener("mouseout", () => {
-          clearInterval(glitchInterval);
-          name.style.textShadow = "0 0 10px rgba(0, 255, 157, 0.7)";
-        });
-      });
-
-      // Добавляем эффект кибер-частиц
-      const particlesContainer = document.createElement("div");
-      particlesContainer.style.position = "fixed";
-      particlesContainer.style.top = "0";
-      particlesContainer.style.left = "0";
-      particlesContainer.style.width = "100%";
-      particlesContainer.style.height = "100%";
-      particlesContainer.style.pointerEvents = "none";
-      particlesContainer.style.zIndex = "-1";
-      document.body.appendChild(particlesContainer);
-
-      function createParticle() {
-        const particle = document.createElement("div");
-        particle.style.position = "absolute";
-        particle.style.width = "2px";
-        particle.style.height = "2px";
-        particle.style.background = `rgba(0, 255, 157, ${
-          Math.random() * 0.5 + 0.5
-        })`;
-        particle.style.borderRadius = "50%";
-        particle.style.top = `${Math.random() * 100}%`;
-        particle.style.left = `${Math.random() * 100}%`;
-        particle.style.animation = `floatParticle ${
-          Math.random() * 5 + 5
-        }s linear infinite`;
-        particlesContainer.appendChild(particle);
-
-        setTimeout(() => {
-          particle.remove();
-        }, 10000);
-      }
-
-      setInterval(createParticle, 200);
-
-      const style = document.createElement("style");
-      style.textContent = `
-        @keyframes floatParticle {
-          0% {
-            transform: translateY(0) translateX(0);
-          }
-          100% {
-            transform: translateY(-100vh) translateX(${
-              Math.random() * 200 - 100
-            }px);
-          }
-        }
-      `;
-      document.head.appendChild(style);
-    </script>
-
+    <script src="./src/js/index.js" type="module"></script>
     <script src="./src/js/mySkills.js" type="module"></script>
+    <script src="./src/js/language.js" type="module"></script>
   </body>
 </html>

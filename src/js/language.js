@@ -5,11 +5,22 @@ const lang = ["en", "ru", "el"];
 let data;
 let langIndex = 0; // Индекс выбранного языка
 
+/**
+ * сокращение document.getElementById(id)
+ * @param {string} id
+ */
+const DG = (id) => document.getElementById(id);
+
+// Загрузка языка из localStorage
+const savedLang = localStorage.getItem("selectedLang");
+if (savedLang && lang.includes(savedLang)) {
+  langIndex = lang.indexOf(savedLang);
+}
+
 fetch(dataUrl)
   .then((response) => response.json())
   .then((jsonData) => {
     data = jsonData;
-
     translation(); // Вызов функции перевода после загрузки данных
   })
   .catch((error) => console.log("error"));
@@ -20,27 +31,28 @@ langBtn.addEventListener("click", () => {
 });
 
 function translation() {
+  langBtn.textContent = `${lang[langIndex]}`;
+
   if (data) {
     const selectedLang = lang[langIndex]; // Выбранный язык по текущему индексу
+    localStorage.setItem("selectedLang", selectedLang);
     const writeLeng = data.find((item) => item.hasOwnProperty(selectedLang))[
       selectedLang
     ];
-    document.getElementById("name").innerHTML = writeLeng.main.name;
-    document.getElementById("location").innerHTML = writeLeng.main.location;
-    document.getElementById("jobTitle").innerHTML = writeLeng.main.jobTitle;
-    document.getElementById("aboutMe").innerHTML = writeLeng.section1.aboutMe;
-    document.getElementById("aboutMeText").innerHTML =
-      writeLeng.section1.aboutMeText;
-    document.getElementById("education").innerHTML =
-      writeLeng.section1.education;
-    document.getElementById("educationText").innerHTML =
-      writeLeng.section1.educationText;
-    document.getElementById("workExperience").innerHTML =
-      writeLeng.section2.workExperience;
-    document.getElementById("workExperienceText").innerHTML =
-      writeLeng.section2.workExperienceText;
-    document.getElementById("skills").innerHTML = writeLeng.section2.skills;
-    document.getElementById("skillsText").innerHTML =
-      writeLeng.section2.skillsText;
+    DG("name").innerHTML = writeLeng.main.name;
+    DG("jobTitle").innerHTML = writeLeng.main.jobTitle;
+    DG("intro").innerHTML = writeLeng.aboutMe.aboutMeText;
+    DG("skills").querySelector("h2").innerHTML = writeLeng.techStack.title;
+    //   document.getElementById("education").innerHTML =
+    //     writeLeng.section1.education;
+    //   document.getElementById("educationText").innerHTML =
+    //     writeLeng.section1.educationText;
+    //   document.getElementById("workExperience").innerHTML =
+    //     writeLeng.section2.workExperience;
+    //   document.getElementById("workExperienceText").innerHTML =
+    //     writeLeng.section2.workExperienceText;
+    //   document.getElementById("skills").innerHTML = writeLeng.section2.skills;
+    //   document.getElementById("skillsText").innerHTML =
+    //     writeLeng.section2.skillsText;
   }
 }
