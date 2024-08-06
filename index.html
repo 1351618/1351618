@@ -17,6 +17,7 @@
     <div class="container">
       <section class="header-content" id="header-content">
         <h1 class="name" id="name"></h1>
+        <span class="lineSection"></span>
         <p class="title" id="jobTitle"></p>
 
         <p class="intro" id="intro"></p>
@@ -239,5 +240,34 @@
     <script src="./src/js/index.js" type="module"></script>
     <script src="./src/js/mySkills.js" type="module"></script>
     <script src="./src/js/language.js" type="module"></script>
+
+    <svg width="0" height="0">
+      <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+        <feTurbulence
+          id="sea-filter"
+          numOctaves="3"
+          seed="2"
+          baseFrequency="0.02 0.05"
+        ></feTurbulence>
+        <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+        <animate
+          xlink:href="#sea-filter"
+          attributeName="baseFrequency"
+          dur="60s"
+          keyTimes="0;0.5;1"
+          values="0.02 0.06;0.04 0.08;0.02 0.06"
+          repeatCount="indefinite"
+        />
+      </filter>
+    </svg>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const lines = document.querySelectorAll(".lineSection");
+        lines.forEach((line, index) => {
+          line.style.height = `${Math.random() * 2 + 1}px`;
+        });
+      });
+    </script>
   </body>
 </html>

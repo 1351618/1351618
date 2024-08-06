@@ -17,11 +17,19 @@
 
 .lineSection {
   display: block;
+  box-sizing: border-box;
   border: 1px solid var(--accent-color);
   width: 100%;
   border-radius: 1px;
-  box-shadow: 0 0 4px var(--accent-color), 0 0 8px var(--accent-color), 0 0 16px var(--accent-color);
+  box-shadow: 0 0 4px var(--accent-color), 0 0 8px var(--accent-color), inset 0 0 2px var(--accent-color), inset 0 0 2px var(--accent-color);
   margin-bottom: 1em;
+  padding: 1px;
+  transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.lineSection:hover {
+  animation: liquidMetal 3s infinite;
+  box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+  background-color: magenta;
 }
 
 .icons {
@@ -507,5 +515,16 @@ a:hover {
   }
   50% {
     opacity: 0;
+  }
+}
+@keyframes liquidMetal {
+  0% {
+    filter: url("#turbulence");
+  }
+  50% {
+    filter: url("#turbulence");
+  }
+  100% {
+    filter: url("#turbulence");
   }
 }/*# sourceMappingURL=index.css.map */
