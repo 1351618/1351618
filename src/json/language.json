@@ -1,86 +1,178 @@
-[
-  {
-    "en": {
-      "main": {
-        "name": "Kozhemiakin Sergei",
-        "location": "Cyprus, Limassol",
-        "jobTitle": "frontend-developer"
-      },
+{
+  "en": {
+    "main": {
+      "name": "Kozhemiakin Sergei",
+      "location": "Cyprus, Limassol",
+      "jobTitle": "frontend-developer"
+    },
 
-      "aboutMe": {
-        "title": "About-me",
-        "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
-        "education": "education",
-        "educationText": "2006 <br> Far Eastern Higher Military Command School (Military Institute) named after. K.K. Rokossovsky (branch) of the Military Educational and Scientific Center of the Ground Forces 'Combined Arms Academy of the RF Armed Forces', Blagoveshchensk (Amur Region) <br> Management, Personnel Management <br> 2002 <br> Blagoveshchensk State Pedagogical University named after. M.I. Kalinina, Blagoveshchensk (Amur region) <br> Physical Culture, Teacher of physical education and sports "
-      },
-      "section2": {
-        "workExperience": "work experience",
+    "aboutMe": {
+      "title": "About-me",
+      "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
+      "education": "education",
+      "educationText": "2006 <br> Far Eastern Higher Military Command School (Military Institute) named after. K.K. Rokossovsky (branch) of the Military Educational and Scientific Center of the Ground Forces 'Combined Arms Academy of the RF Armed Forces', Blagoveshchensk (Amur Region) <br> Management, Personnel Management <br> 2002 <br> Blagoveshchensk State Pedagogical University named after. M.I. Kalinina, Blagoveshchensk (Amur region) <br> Physical Culture, Teacher of physical education and sports "
+    },
 
-        "workExperienceText": "October 2023 — currently  <br>  8 months  <br>  Bogoda Digital Pro  <br>  The Republic of Costa Rica, guider.pro/  <br>    <br>  frontend developer  <br>  front-end development using the next.js framework  <br>  - layout of components  <br>  - team work  <br>  - working with git  <br>    <br>  April 2023 — currently  <br>  1 year 2 months  <br>  Self-employed, freelancer  <br>  Cyprus  <br>    <br>  IT, System Integration, Internet... Show more  <br>    <br>  Frontend Developer  <br>  Having various experiences in the IT field, I decided to dive into front-end development. Now I carry out projects as a freelancer, this allows me to grow as a specialist and gain a deeper knowledge of front-end development. But now I would like to gain experience working in a development team and am happy to join the team. I am very motivated, I am used to working and learning a lot and I take tasks responsibly.  <br>    <br>  September 2022 — april 2023  <br>  8 months  <br>  SPORTCALC LTD  <br>  Cyprus, sport-calc.com/  <br>    <br>  IT, System Integration, Internet... Show more  <br>    <br>  Frontend developer, business process automation specialist  <br>  I worked on creating user interfaces for new projects, laying out pages using responsive HTML, CSS and JavaScript. Additionally, I worked on existing websites, making improvements and providing user interface support. I also developed a desktop application in Python that allows me to automate some processes that were previously done manually.",
-
-        "skills": "skills",
-        "skillsText": "JavaScript &nbsp;&nbsp;&nbsp; HTML &nbsp;&nbsp;&nbsp; CSS &nbsp;&nbsp;&nbsp; CSS3 &nbsp;&nbsp;&nbsp; Node.js &nbsp;&nbsp;&nbsp; Adaptive  layout &nbsp;&nbsp;&nbsp; HTML5 &nbsp;&nbsp;&nbsp; Python &nbsp;&nbsp;&nbsp; User  PC &nbsp;&nbsp;&nbsp; MS &nbsp;&nbsp;&nbsp; Office &nbsp;&nbsp;&nbsp; Fusion-360 &nbsp;&nbsp;&nbsp; Adobe &nbsp;&nbsp;&nbsp; Photoshop &nbsp;&nbsp;&nbsp; BEM &nbsp;&nbsp;&nbsp; React &nbsp;&nbsp;&nbsp; Frontend &nbsp;&nbsp;&nbsp; Sass &nbsp;&nbsp;&nbsp; WebPack &nbsp;&nbsp;&nbsp; Redux &nbsp;&nbsp;&nbsp; Cross-browser layout &nbsp;&nbsp;&nbsp; NEXT.js &nbsp;&nbsp;&nbsp; TypeScript &nbsp;&nbsp;&nbsp; REACT.js &nbsp;&nbsp;&nbsp; GitHub &nbsp;&nbsp;&nbsp; gitlab &nbsp;&nbsp;&nbsp; express.js"
-      },
-      "techStack": {
-        "title": "Tech stack"
-      },
-      "projects": {
-        "title": "Projects"
-      }
+    "techStack": {
+      "title": "Tech stack"
+    },
+    "devAchievements": {
+      "title": "Development and Achievements",
+      "workplaces": [
+        {
+          "jobTitle": "Frontend developer",
+          "company": "company",
+          "period": "2025 - 2030",
+          "achievements": ["item 1", "item 2", "item 3", "item 4"]
+        },
+        {
+          "jobTitle": "position",
+          "company": "company",
+          "period": "date",
+          "achievements": ["item 1", "item 2", "item 3", "item 4"]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "section3": {
+      "title": "section3",
+      "section3Cont": [
+        {
+          "name": "NeuroLink",
+          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+        },
+        {
+          "name": "QuantumSphere",
+          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+        },
+        {
+          "name": "CyberEco",
+          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "contacts"
     }
   },
-  {
-    "ru": {
-      "main": {
-        "name": "Кожемякин Сергей",
-        "location": "Кипр, Лимассол",
-        "jobTitle": "фронтенд-разработчик"
-      },
-      "aboutMe": {
-        "title": "Обо мне",
-        "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Интересуюсь программированием с 2022 года. Активно занимаюсь фронтенд-разработкой с февраля 2023 года. В этот период участвовал в стартапе Guider в Коста-Рике, где был повышен до позиции тимлида. Работал удаленно в крупной компании SPORTCALC LTD (Кипр). В свободное время выполняю фриланс-заказы. Сейчас провожу онлайн-уроки по JavaScript для детей.",
-        "education": "образование",
-        "educationText": "2006 <br> Дальневосточное высшее военное командное училище (военный институт) им. К.К. Рокоссовского (филиал) Военного учебно-научного центра Сухопутных войск «Общевойсковая академия Вооруженных Сил РФ», г. Благовещенск (Амурская область) <br> Менеджмент, Управление персоналом <br> 2002 <br> Благовещенский государственный педагогический университет им. М.И. Калинина, г. Благовещенск (Амурская область) <br> Физическая культура, Учитель физической культуры и спорта»."
-      },
-      "section2": {
-        "workExperience": "опыт работы",
-        "workExperienceText": "Октябрь 2023 г. — на данный момент  <br>  8 месяцев  <br>  Bogoda Digital Pro  <br>  Республика Коста-Рика,guider.pro/  <br>   <br>  разработчик интерфейса  <br>  разработка интерфейса с использованием next.js framework  <br>  - компоновка компонентов  <br>  - командная работа  <br>  - работа с git  <br>   <br>  Апрель 2023 г. — на данный момент  <br>  1 год 2 месяца  <br>  Частный предприниматель, фрилансер  <br>   Кипр  <br>   <br>  ИТ, Системная интеграция, Интернет... Показать больше  <br>   <br>  Frontend Developer  <br>  Имея различный опыт в сфере ИТ, я решил сейчас погрузиться во frontend-разработку. Я выполняю проекты как фрилансер, это позволяет мне расти как специалисту и получать более глубокие знания в области фронтенд-разработки. Но сейчас мне хотелось бы получить опыт работы в команде разработчиков и я рад присоединиться к ней. очень мотивирован, привык много работать и учиться и ответственно отношусь к заданиям  <br>   <br>  сентябрь 2022 — апрель 2023  <br>  8 месяцев  <br>  SPORTCALC LTD  <br>  Кипр, sport-calc.com/.  <br>   <br>  ИТ, Системная интеграция, Интернет... Показать больше  <br>   <br>  Frontend-разработчик, специалист по автоматизации бизнес-процессов  <br>  Я занимался созданием пользовательских интерфейсов для новых проектов, версткой страниц с использованием адаптивного HTML, CSS и JavaScript. Кроме того, я работал над существующими веб-сайтами, внося улучшения и обеспечивая поддержку пользовательского интерфейса. Я также разработал настольное приложение на Python, которое позволяет мне автоматизировать некоторые процессы, которые раньше выполнялись вручную.",
-        "skills": "навыки",
-        "skillsText": "JavaScript &nbsp;&nbsp;&nbsp; HTML &nbsp;&nbsp;&nbsp; CSS &nbsp;&nbsp;&nbsp; CSS3 &nbsp;&nbsp;&nbsp; Node.js &nbsp;&nbsp;&nbsp; Адаптивная  верстка &nbsp;&nbsp;&nbsp; HTML5 &nbsp;&nbsp;&nbsp; Python &nbsp;&nbsp;&nbsp; Пользователь  ПК &nbsp;&nbsp;&nbsp; MS &nbsp;&nbsp;&nbsp; Office &nbsp;&nbsp;&nbsp; Fusion-360 &nbsp;&nbsp;&nbsp; Adobe &nbsp;&nbsp;&nbsp; Photoshop &nbsp;&nbsp;&nbsp; БЭМ &nbsp;&nbsp;&nbsp; React &nbsp;&nbsp;&nbsp; Frontend &nbsp;&nbsp;&nbsp; Sass &nbsp;&nbsp;&nbsp; WebPack &nbsp;&nbsp;&nbsp; Redux &nbsp;&nbsp;&nbsp; Кроссбраузерная  верстка &nbsp;&nbsp;&nbsp; NEXT.js &nbsp;&nbsp;&nbsp; TypeScript &nbsp;&nbsp;&nbsp; REACT.js &nbsp;&nbsp;&nbsp; GitHub &nbsp;&nbsp;&nbsp; gitlab &nbsp;&nbsp;&nbsp; express.js"
-      },
-      "techStack": {
-        "title": "Технический стек"
-      },
-      "projects": {
-        "title": "Проекты"
-      }
+
+  "ru": {
+    "main": {
+      "name": "Кожемякин Сергей",
+      "location": "Кипр, Лимассол",
+      "jobTitle": "фронтенд-разработчик"
+    },
+    "aboutMe": {
+      "title": "Обо мне",
+      "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Интересуюсь программированием с 2022 года. Активно занимаюсь фронтенд-разработкой с февраля 2023 года. В этот период участвовал в стартапе Guider в Коста-Рике, где был повышен до позиции тимлида. Работал удаленно в крупной компании SPORTCALC LTD (Кипр). В свободное время выполняю фриланс-заказы. Сейчас провожу онлайн-уроки по JavaScript для детей.",
+      "education": "образование",
+      "educationText": "2006 <br> Дальневосточное высшее военное командное училище (военный институт) им. К.К. Рокоссовского (филиал) Военного учебно-научного центра Сухопутных войск «Общевойсковая академия Вооруженных Сил РФ», г. Благовещенск (Амурская область) <br> Менеджмент, Управление персоналом <br> 2002 <br> Благовещенский государственный педагогический университет им. М.И. Калинина, г. Благовещенск (Амурская область) <br> Физическая культура, Учитель физической культуры и спорта»."
+    },
+
+    "techStack": {
+      "title": "Технический стек"
+    },
+
+    "devAchievements": {
+      "title": "Развитие и Достижения",
+      "workplaces": [
+        {
+          "jobTitle": "Фронтенд-разработчик",
+          "company": "компания",
+          "period": "2025 - 2030",
+          "achievements": ["пункт 1", "пункт 2", "пункт 3", "пункт 4"]
+        },
+        {
+          "jobTitle": "должность",
+          "company": "компания",
+          "period": "дата",
+          "achievements": ["пункт 1", "пункт 2", "пункт 3", "пункт 4"]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Проекты"
+    },
+    "section3": {
+      "title": "section3",
+      "section3Cont": [
+        {
+          "name": "NeuroLink",
+          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+        },
+        {
+          "name": "QuantumSphere",
+          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+        },
+        {
+          "name": "CyberEco",
+          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Контакты"
     }
   },
-  {
-    "el": {
-      "main": {
-        "name": "Κοζεμιάκιν Σεργκέι",
-        "location": "Κύπρος, Λεμεσός",
-        "jobTitle": "προγραμματιστής-frontend"
-      },
-      "aboutMe": {
-        "title": "Σχετικά με μένα",
-        "aboutMeText": "Προγραμματιστής Frontend (JS/TS). Το κύριο πλαίσιο είναι το React.js/Next.js. Με ενδιαφέρει ο προγραμματισμός από το 2022. Ασχολούμαι ενεργά με την ανάπτυξη front-end από τον Φεβρουάριο του 2023. Την περίοδο αυτή συμμετείχε στην startup Guider στην Κόστα Ρίκα, όπου προήχθη στη θέση του επικεφαλής της ομάδας. Εργάστηκε εξ αποστάσεως για μια μεγάλη εταιρεία SPORTCALC LTD (Κύπρος). Στον ελεύθερο χρόνο μου εκτελώ παραγγελίες ελεύθερου επαγγελματία. Αυτήν τη στιγμή διδάσκω διαδικτυακά μαθήματα JavaScript για παιδιά.",
-        "education": "παιδεία",
-        "educationText": "2006 <br> Ανώτερη Στρατιωτική Σχολή Διοίκησης Άπω Ανατολής (Στρατιωτικό Ινστιτούτο) με το όνομα K.K. Rokossovsky (παράρτημα) του Στρατιωτικού Εκπαιδευτικού και Επιστημονικού Κέντρου των Χερσαίων Δυνάμεων 'Ακαδημία Συνδυασμένων Όπλων των Ενόπλων Δυνάμεων της Ρωσικής Ομοσπονδίας' , Blagoveshchensk (Περιφέρεια Amur) <br> Διοίκηση, Διαχείριση Προσωπικού <br> 2002 <br> Κρατικό Παιδαγωγικό Πανεπιστήμιο Blagoveshchensk με το όνομα M.I Kalinin, Blagoveshchensk (Περιφέρεια Amur) <br> Φυσική αγωγή, Δάσκαλος φυσικής αγωγής και αθλητισμού."
-      },
-      "section2": {
-        "workExperience": "εμπειρία",
-        "workExperienceText": "Οκτώβριος 2023 - επί του παρόντος  <br>  8 μήνες  <br>  Bogoda Digital Pro  <br>  Δημοκρατία της Κόστα Ρίκα, guider.pro/  <br>   <br>  προγραμματιστής διεπαφής  <br>  ανάπτυξη διεπαφής με χρήση next.js πλαίσιο  <br>  - διάταξη στοιχείων  <br>  - ομαδική εργασία  <br>  - εργασία με git  <br>   <br>  Απρίλιος 2023 - επί του παρόντος  <br>  1 έτος 2 μήνες  <br>  Αυτοαπασχολούμενος , ελεύθερος επαγγελματίας  <br>   Κύπρος  <br>   <br>  Πληροφορική, Ενοποίηση Συστήματος, Διαδίκτυο... Εμφάνιση περισσότερων  <br>   <br>  Προγραμματιστής Frontend  <br>  Έχοντας διάφορες εμπειρίες στον τομέα της πληροφορικής, αποφάσισα να βουτήξω τώρα στην ανάπτυξη του frontend έξω από έργα ως ελεύθερος επαγγελματίας, αυτό μου επιτρέπει να εξελιχθώ ως ειδικός και να αποκτήσω βαθύτερη γνώση στον τομέα της ανάπτυξης front-end, αλλά τώρα θα ήθελα να αποκτήσω εμπειρία δουλεύοντας σε μια ομάδα ανάπτυξης και έχω πολύ κίνητρο, συνηθισμένη να εργάζομαι σκληρά Μελετήστε και αναλάβετε υπεύθυνα εργασίες  <br>   <br>  Σεπτέμβριος 2022 - Απρίλιος 2023  <br>  8 μήνες  <br>  SPORTCALC LTD  <br>  Κύπρος, sport-calc.com/.  <br>   <br>  Πληροφορική, Ενοποίηση συστήματος, Διαδίκτυο... Εμφάνιση περισσότερων  <br>   <br>  Προγραμματιστής διεπαφής, ειδικός αυτοματισμού επιχειρηματικών διαδικασιών  <br>  Ασχολήθηκα με τη δημιουργία διεπαφών χρήστη για νέα έργα, διάταξη σελίδας χρησιμοποιώντας προσαρμοστικό HTML, CSS και JavaScript. Επιπλέον, εργάστηκα σε υπάρχοντες ιστότοπους, κάνοντας βελτιώσεις και παρέχοντας υποστήριξη διεπαφής χρήστη. Έχω επίσης αναπτύξει μια εφαρμογή επιτραπέζιου υπολογιστή στην Python που μου επιτρέπει να αυτοματοποιήσω ορισμένες διεργασίες που προηγουμένως γίνονταν χειροκίνητα.",
-        "skills": "δεξιότητες",
-        "skillsText": "JavaScript &nbsp;&nbsp;&nbsp; HTML &nbsp;&nbsp;&nbsp; CSS &nbsp;&nbsp;&nbsp; CSS3 &nbsp;&nbsp;&nbsp; Node.js &nbsp;&nbsp;&nbsp; Προσαρμοστική διάταξη &nbsp;&nbsp;&nbsp; HTML5 &nbsp;&nbsp;&nbsp; Python &nbsp;&nbsp;&nbsp; χρήστης Η/Υ &nbsp;&nbsp;&nbsp; MS &nbsp;&nbsp;&nbsp; Office &nbsp;&nbsp;&nbsp; Fusion-360 &nbsp;&nbsp;&nbsp; Adobe &nbsp;&nbsp;&nbsp; Photoshop &nbsp;&nbsp;&nbsp; BEM &nbsp;&nbsp;&nbsp; React &nbsp;&nbsp;&nbsp; Frontend &nbsp;&nbsp;&nbsp; Sass &nbsp;&nbsp;&nbsp; WebPack &nbsp;&nbsp;&nbsp; Redux &nbsp;&nbsp;&nbsp; Διάταξη μεταξύ προγραμμάτων περιήγησης &nbsp;&nbsp;&nbsp; NEXT.js &nbsp;&nbsp;&nbsp; TypeScript &nbsp;&nbsp;&nbsp; REACT.js &nbsp;&nbsp;&nbsp; GitHub &nbsp;&nbsp;&nbsp; gitlab &nbsp;&nbsp;&nbsp; express.js"
-      },
-      "techStack": {
-        "title": "Τεχνική στοίβα"
-      },
-      "projects": {
-        "title": "Εργα"
-      }
+
+  "el": {
+    "main": {
+      "name": "Κοζεμιάκιν Σεργκέι",
+      "location": "Κύπρος, Λεμεσός",
+      "jobTitle": "προγραμματιστής-frontend"
+    },
+    "aboutMe": {
+      "title": "Σχετικά με μένα",
+      "aboutMeText": "Προγραμματιστής Frontend (JS/TS). Το κύριο πλαίσιο είναι το React.js/Next.js. Με ενδιαφέρει ο προγραμματισμός από το 2022. Ασχολούμαι ενεργά με την ανάπτυξη front-end από τον Φεβρουάριο του 2023. Την περίοδο αυτή συμμετείχε στην startup Guider στην Κόστα Ρίκα, όπου προήχθη στη θέση του επικεφαλής της ομάδας. Εργάστηκε εξ αποστάσεως για μια μεγάλη εταιρεία SPORTCALC LTD (Κύπρος). Στον ελεύθερο χρόνο μου εκτελώ παραγγελίες ελεύθερου επαγγελματία. Αυτήν τη στιγμή διδάσκω διαδικτυακά μαθήματα JavaScript για παιδιά.",
+      "education": "παιδεία",
+      "educationText": "2006 <br> Ανώτερη Στρατιωτική Σχολή Διοίκησης Άπω Ανατολής (Στρατιωτικό Ινστιτούτο) με το όνομα K.K. Rokossovsky (παράρτημα) του Στρατιωτικού Εκπαιδευτικού και Επιστημονικού Κέντρου των Χερσαίων Δυνάμεων 'Ακαδημία Συνδυασμένων Όπλων των Ενόπλων Δυνάμεων της Ρωσικής Ομοσπονδίας' , Blagoveshchensk (Περιφέρεια Amur) <br> Διοίκηση, Διαχείριση Προσωπικού <br> 2002 <br> Κρατικό Παιδαγωγικό Πανεπιστήμιο Blagoveshchensk με το όνομα M.I Kalinin, Blagoveshchensk (Περιφέρεια Amur) <br> Φυσική αγωγή, Δάσκαλος φυσικής αγωγής και αθλητισμού."
+    },
+
+    "techStack": {
+      "title": "Τεχνική στοίβα"
+    },
+    "devAchievements": {
+      "title": "Ανάπτυξη και Επιτεύγματα",
+      "workplaces": [
+        {
+          "jobTitle": "Προγραμματιστής Frontend",
+          "company": "εταιρεία",
+          "period": "2025 - 2030",
+          "achievements": ["σημείο 1", "σημείο 2", "σημείο 3", "σημείο 4"]
+        },
+        {
+          "jobTitle": "θέση",
+          "company": "εταιρεία",
+          "period": "ημερομηνία",
+          "achievements": ["σημείο 1", "σημείο 2", "σημείο 3", "σημείο 4"]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Εργα"
+    },
+    "section3": {
+      "title": "section3",
+      "section3Cont": [
+        {
+          "name": "NeuroLink",
+          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+        },
+        {
+          "name": "QuantumSphere",
+          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+        },
+        {
+          "name": "CyberEco",
+          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+        }
+      ]
+    },
+
+    "contacts": {
+      "title": "επαφές"
     }
   }
-]
+}
