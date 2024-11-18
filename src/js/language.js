@@ -62,7 +62,6 @@ function translation() {
     DG("projects").querySelector("h2").innerHTML = writeLeng.section3.title;
     DG("works-grid").innerHTML = writeLeng.sites
       .map((val) => {
-        console.log(val);
         return `
         <div class="work-item">
         <img
