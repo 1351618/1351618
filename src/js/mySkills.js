@@ -31,7 +31,7 @@ const mySkillsData = [
   },
   {
     name: "Next",
-    icon: "https://www.openxcell.com/wp-content/uploads/2021/11/dango-inner-2.png",
+    icon: "https://img.icons8.com/fluent-systems-filled/200/FFFFFF/nextjs.png",
     link: "https://nextjs.org/docs",
   },
   {

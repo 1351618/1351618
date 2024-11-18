@@ -73,5 +73,20 @@ function translation() {
       `;
       })
       .join("");
+
+    DG("education").querySelector("h2").innerHTML = writeLeng.aboutMe.education;
+    DG("education-items").innerHTML = writeLeng.aboutMe.educationText
+      .map((val) => {
+        return `
+        <div class="education-item">
+        <h3>${val.year}</h3>
+        <p class="date">${val.institution} | ${val.year}</p>
+        <p>
+        ${val.specialty}
+        </p>
+      </div>
+        `;
+      })
+      .join("");
   }
 }

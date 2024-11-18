@@ -10,7 +10,23 @@
       "title": "About-me",
       "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
       "education": "education",
-      "educationText": "2006 <br> Far Eastern Higher Military Command School (Military Institute) named after. K.K. Rokossovsky (branch) of the Military Educational and Scientific Center of the Ground Forces 'Combined Arms Academy of the RF Armed Forces', Blagoveshchensk (Amur Region) <br> Management, Personnel Management <br> 2002 <br> Blagoveshchensk State Pedagogical University named after. M.I. Kalinina, Blagoveshchensk (Amur region) <br> Physical Culture, Teacher of physical education and sports "
+      "educationText": [
+        {
+          "year": "2024",
+          "institution": "Federal State Autonomous Educational Institution of Higher Education 'National Research University Moscow Institute of Electronic Technology', Moscow.",
+          "specialty": "Bachelor's Degree | 09.03.04 Software Engineering"
+        },
+        {
+          "year": "2006",
+          "institution": "Far Eastern Higher Military Command School (Military Institute) named after K.K. Rokossovsky (branch) of the Military Training and Research Center of the Ground Forces 'General Military Academy of the Armed Forces of the Russian Federation', Blagoveshchensk, Amur Region",
+          "specialty": "Management | Personnel Management"
+        },
+        {
+          "year": "2002",
+          "institution": "Blagoveshchensk State Pedagogical University named after M.I. Kalinin, Blagoveshchensk, Amur Region",
+          "specialty": "Physical Education | PE Teacher"
+        }
+      ]
     },
 
     "techStack": {
@@ -20,16 +36,48 @@
       "title": "Development and Achievements",
       "workplaces": [
         {
-          "jobTitle": "Frontend developer",
-          "company": "company",
-          "period": "2025 - 2030",
-          "achievements": ["item 1", "item 2", "item 3", "item 4"]
+          "jobTitle": "Frontend Developer",
+          "company": "guider.pro",
+          "period": "2024-2024",
+          "achievements": [
+            "Frontend development from scratch to implementation",
+            "Writing 80% of the project's frontend",
+            "API and backend integration",
+            "Performance optimization and UX/UI improvements"
+          ]
         },
         {
-          "jobTitle": "position",
-          "company": "company",
-          "period": "date",
-          "achievements": ["item 1", "item 2", "item 3", "item 4"]
+          "jobTitle": "Frontend Developer",
+          "company": "sport-calc",
+          "period": "2023-2024",
+          "achievements": [
+            "Development of user interfaces for web applications",
+            "Performance optimization and responsiveness improvements",
+            "API integration for real-time data display",
+            "Collaboration with backend developers to create solutions"
+          ]
+        },
+        {
+          "jobTitle": "Freelance Developer",
+          "company": "Freelance Projects",
+          "period": "2024-2024",
+          "achievements": [
+            "Development and implementation of frontend for various clients",
+            "Work with JavaScript, React, Next.js to create interactive interfaces",
+            "Integration with external services and APIs",
+            "Ensuring cross-browser compatibility and responsive websites"
+          ]
+        },
+        {
+          "jobTitle": "JavaScript Instructor",
+          "company": "luxkod",
+          "period": "2024-2024",
+          "achievements": [
+            "Teaching JavaScript and frontend development fundamentals",
+            "Preparing lesson materials",
+            "Conducting practical sessions and projects",
+            "Assisting students in creating their first projects"
+          ]
         }
       ]
     },
@@ -37,19 +85,19 @@
       "title": "Projects"
     },
     "section3": {
-      "title": "section3",
+      "title": "-",
       "section3Cont": [
         {
-          "name": "NeuroLink",
-          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "QuantumSphere",
-          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "CyberEco",
-          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+          "name": "-",
+          "description": "-"
         }
       ]
     },
@@ -68,7 +116,23 @@
       "title": "Обо мне",
       "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Интересуюсь программированием с 2022 года. Активно занимаюсь фронтенд-разработкой с февраля 2023 года. В этот период участвовал в стартапе Guider в Коста-Рике, где был повышен до позиции тимлида. Работал удаленно в крупной компании SPORTCALC LTD (Кипр). В свободное время выполняю фриланс-заказы. Сейчас провожу онлайн-уроки по JavaScript для детей.",
       "education": "образование",
-      "educationText": "2006 <br> Дальневосточное высшее военное командное училище (военный институт) им. К.К. Рокоссовского (филиал) Военного учебно-научного центра Сухопутных войск «Общевойсковая академия Вооруженных Сил РФ», г. Благовещенск (Амурская область) <br> Менеджмент, Управление персоналом <br> 2002 <br> Благовещенский государственный педагогический университет им. М.И. Калинина, г. Благовещенск (Амурская область) <br> Физическая культура, Учитель физической культуры и спорта»."
+      "educationText": [
+        {
+          "year": "2024",
+          "institution": "Федеральное государственное автономное образовательное учреждение высшего образования 'Национальный исследовательский университет Московский институт электронной техники', г. Москва.",
+          "specialty": "Бакалавриат | 09.03.04 Программная инженерия"
+        },
+        {
+          "year": "2006",
+          "institution": "Дальневосточное высшее военное командное училище (военный институт) им. К.К. Рокоссовского (филиал) Военного учебно-научного центра Сухопутных войск «Общевойсковая академия Вооруженных Сил РФ», г. Благовещенск (Амурская область)",
+          "specialty": "Менеджмент | Управление персоналом"
+        },
+        {
+          "year": "2002",
+          "institution": "Благовещенский государственный педагогический университет им. М.И. Калинина, г. Благовещенск (Амурская область)",
+          "specialty": "Физическая культура | Учитель ФКиС"
+        }
+      ]
     },
 
     "techStack": {
@@ -80,35 +144,68 @@
       "workplaces": [
         {
           "jobTitle": "Фронтенд-разработчик",
-          "company": "компания",
-          "period": "2025 - 2030",
-          "achievements": ["пункт 1", "пункт 2", "пункт 3", "пункт 4"]
+          "company": "guider.pro",
+          "period": "2024-2024",
+          "achievements": [
+            "Разработка фронтенда с нуля до реализации",
+            "Написание 80% фронтенда проекта",
+            "Интеграция с API и серверной частью",
+            "Оптимизация производительности и UX/UI"
+          ]
         },
         {
-          "jobTitle": "должность",
-          "company": "компания",
-          "period": "дата",
-          "achievements": ["пункт 1", "пункт 2", "пункт 3", "пункт 4"]
+          "jobTitle": "Фронтенд-разработчик",
+          "company": "sport-calc",
+          "period": "2023-2024",
+          "achievements": [
+            "Разработка пользовательских интерфейсов для веб-приложений",
+            "Оптимизация производительности и отзывчивости страниц",
+            "Интеграция с API для отображения данных в реальном времени",
+            "Сотрудничество с бэкенд-разработчиками для создания решений"
+          ]
+        },
+        {
+          "jobTitle": "Фриланс-разработчик",
+          "company": "Фриланс-проекты",
+          "period": "2024-2024",
+          "achievements": [
+            "Разработка и внедрение фронтенда для различных клиентов",
+            "Работа с JavaScript, React, Next.js для создания интерактивных интерфейсов",
+            "Интеграция с внешними сервисами и API",
+            "Обеспечение кроссбраузерной совместимости и адаптивности сайтов"
+          ]
+        },
+        {
+          "jobTitle": "Преподаватель JavaScript",
+          "company": "luxkod",
+          "period": "2024-2024",
+          "achievements": [
+            "Преподавание JavaScript и основ фронтенд-разработки",
+            "Подготовка материалов для уроков",
+            "Проведение практических занятий и проектов",
+            "Помощь студентам в создании первых проектов"
+          ]
         }
       ]
     },
+
     "projects": {
       "title": "Проекты"
     },
     "section3": {
-      "title": "section3",
+      "title": "-",
       "section3Cont": [
         {
-          "name": "NeuroLink",
-          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "QuantumSphere",
-          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "CyberEco",
-          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+          "name": "-",
+          "description": "-"
         }
       ]
     },
@@ -127,7 +224,23 @@
       "title": "Σχετικά με μένα",
       "aboutMeText": "Προγραμματιστής Frontend (JS/TS). Το κύριο πλαίσιο είναι το React.js/Next.js. Με ενδιαφέρει ο προγραμματισμός από το 2022. Ασχολούμαι ενεργά με την ανάπτυξη front-end από τον Φεβρουάριο του 2023. Την περίοδο αυτή συμμετείχε στην startup Guider στην Κόστα Ρίκα, όπου προήχθη στη θέση του επικεφαλής της ομάδας. Εργάστηκε εξ αποστάσεως για μια μεγάλη εταιρεία SPORTCALC LTD (Κύπρος). Στον ελεύθερο χρόνο μου εκτελώ παραγγελίες ελεύθερου επαγγελματία. Αυτήν τη στιγμή διδάσκω διαδικτυακά μαθήματα JavaScript για παιδιά.",
       "education": "παιδεία",
-      "educationText": "2006 <br> Ανώτερη Στρατιωτική Σχολή Διοίκησης Άπω Ανατολής (Στρατιωτικό Ινστιτούτο) με το όνομα K.K. Rokossovsky (παράρτημα) του Στρατιωτικού Εκπαιδευτικού και Επιστημονικού Κέντρου των Χερσαίων Δυνάμεων 'Ακαδημία Συνδυασμένων Όπλων των Ενόπλων Δυνάμεων της Ρωσικής Ομοσπονδίας' , Blagoveshchensk (Περιφέρεια Amur) <br> Διοίκηση, Διαχείριση Προσωπικού <br> 2002 <br> Κρατικό Παιδαγωγικό Πανεπιστήμιο Blagoveshchensk με το όνομα M.I Kalinin, Blagoveshchensk (Περιφέρεια Amur) <br> Φυσική αγωγή, Δάσκαλος φυσικής αγωγής και αθλητισμού."
+      "educationText": [
+        {
+          "year": "2024",
+          "institution": "Ομοσπονδιακό Κρατικό Αυτόνομο Εκπαιδευτικό Ίδρυμα Ανώτατης Εκπαίδευσης 'Εθνικό Ερευνητικό Πανεπιστήμιο Μόσχας Ινστιτούτο Ηλεκτρονικής Τεχνολογίας', Μόσχα.",
+          "specialty": "Πτυχίο | 09.03.04 Μηχανική Λογισμικού"
+        },
+        {
+          "year": "2006",
+          "institution": "Ανώτατη Στρατιωτική Σχολή Διοίκησης Άπω Ανατολής (Στρατιωτικό Ινστιτούτο) με το όνομα Κ.Κ. Ροκόσοβσκι (παράρτημα) του Κέντρου Στρατιωτικής Εκπαίδευσης και Έρευνας των Ενόπλων Δυνάμεων της Ρωσίας 'Γενική Στρατιωτική Ακαδημία των Ενόπλων Δυνάμεων της Ρωσικής Ομοσπονδίας', Μπλαγκοβέστσενσκ, Περιφέρεια Αμούρ",
+          "specialty": "Διοίκηση | Διαχείριση Ανθρώπινου Δυναμικού"
+        },
+        {
+          "year": "2002",
+          "institution": "Παιδαγωγικό Πανεπιστήμιο Μπλαγκοβέστσενσκ του κράτους, με το όνομα Μ.Ι. Καλίνιν, Μπλαγκοβέστσενσκ, Περιφέρεια Αμούρ",
+          "specialty": "Φυσική Αγωγή | Δάσκαλος ΦΑ"
+        }
+      ]
     },
 
     "techStack": {
@@ -137,16 +250,48 @@
       "title": "Ανάπτυξη και Επιτεύγματα",
       "workplaces": [
         {
-          "jobTitle": "Προγραμματιστής Frontend",
-          "company": "εταιρεία",
-          "period": "2025 - 2030",
-          "achievements": ["σημείο 1", "σημείο 2", "σημείο 3", "σημείο 4"]
+          "jobTitle": "Frontend Developer",
+          "company": "guider.pro",
+          "period": "2024-2024",
+          "achievements": [
+            "Ανάπτυξη frontend από την αρχή μέχρι την υλοποίηση",
+            "Συγγραφή του 80% του frontend του έργου",
+            "Ενσωμάτωση με API και το backend",
+            "Βελτιστοποίηση απόδοσης και βελτίωση UX/UI"
+          ]
         },
         {
-          "jobTitle": "θέση",
-          "company": "εταιρεία",
-          "period": "ημερομηνία",
-          "achievements": ["σημείο 1", "σημείο 2", "σημείο 3", "σημείο 4"]
+          "jobTitle": "Frontend Developer",
+          "company": "sport-calc",
+          "period": "2023-2024",
+          "achievements": [
+            "Ανάπτυξη διεπαφών χρήστη για web εφαρμογές",
+            "Βελτιστοποίηση απόδοσης και βελτίωση της ανταπόκρισης σε σελίδες",
+            "Ενσωμάτωση με API για εμφάνιση δεδομένων σε πραγματικό χρόνο",
+            "Συνεργασία με backend developers για τη δημιουργία λύσεων"
+          ]
+        },
+        {
+          "jobTitle": "Freelance Developer",
+          "company": "Freelance Projects",
+          "period": "2024-2024",
+          "achievements": [
+            "Ανάπτυξη και υλοποίηση frontend για διάφορους πελάτες",
+            "Εργασία με JavaScript, React, Next.js για δημιουργία διαδραστικών διεπαφών",
+            "Ενσωμάτωση με εξωτερικές υπηρεσίες και APIs",
+            "Εξασφάλιση συμβατότητας με διάφορους browsers και responsive ιστοσελίδες"
+          ]
+        },
+        {
+          "jobTitle": "Δάσκαλος JavaScript",
+          "company": "luxkod",
+          "period": "2024-2024",
+          "achievements": [
+            "Διδασκαλία JavaScript και των βασικών αρχών ανάπτυξης frontend",
+            "Προετοιμασία μαθησιακών υλικών",
+            "Διεξαγωγή πρακτικών μαθημάτων και έργων",
+            "Βοήθεια στους μαθητές για την ανάπτυξη των πρώτων τους έργων"
+          ]
         }
       ]
     },
@@ -154,19 +299,19 @@
       "title": "Εργα"
     },
     "section3": {
-      "title": "section3",
+      "title": "-",
       "section3Cont": [
         {
-          "name": "NeuroLink",
-          "description": "Разработка системы прямого нейроинтерфейса для управления умным домом и персональными устройствами."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "QuantumSphere",
-          "description": "Создание квантовой сети для безопасной передачи данных между планетарными колониями."
+          "name": "-",
+          "description": "-"
         },
         {
-          "name": "CyberEco",
-          "description": "Проектирование и внедрение AI-экосистемы для оптимизации ресурсов и управления климатом мегаполисов."
+          "name": "-",
+          "description": "-"
         }
       ]
     },

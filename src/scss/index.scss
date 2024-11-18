@@ -300,13 +300,16 @@ h2 {
   margin-bottom: 1rem;
   padding-left: 1rem;
   border-left: 2px solid var(--secondary-color);
-}
-
-.experience-item h3,
-.education-item h3 {
-  font-size: 1.1rem;
-  color: var(--secondary-color);
-  margin-bottom: 0.3rem;
+  ul {
+    li {
+      font-size: 12px;
+    }
+  }
+  h3 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.3rem;
+  }
 }
 
 .date {
