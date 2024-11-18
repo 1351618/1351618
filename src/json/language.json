@@ -84,20 +84,93 @@
     "projects": {
       "title": "Projects"
     },
+
+    "sites": [
+      {
+        "title": "guider.pro",
+        "description": "A website where you can find the best places for travel, leisure, and unforgettable locations.",
+        "technologies": "Next.js",
+        "url": "https://guider.pro",
+        "img": "./src/img/guider.jpg"
+      },
+      {
+        "title": "oneshottattoo.shop",
+        "description": "Online store One Shot Tattoo Shop for tattoo and permanent makeup artists.",
+        "technologies": "Moguta",
+        "url": "https://oneshottattoo.shop/",
+        "img": "./src/img/oneshottattoo.shop.png"
+      },
+      {
+        "title": "torkretsovilo.ru",
+        "description": "A website showcasing the services and projects of a company specializing in concrete and waterproofing, emphasizing experience and quality.",
+        "technologies": "WordPress",
+        "url": "https://torkretsovilo.ru/",
+        "img": "./src/img/torkretsovilo.png"
+      },
+      {
+        "title": "sport-calc.com",
+        "description": "A service for analyzing and forecasting sports events using statistics.",
+        "technologies": "WordPress",
+        "url": "https://sport-calc.com/",
+        "img": "./src/img/sport-calc.jpg"
+      },
+      {
+        "title": "moskva-zamki.ru",
+        "description": "A store for locks and door hardware.",
+        "technologies": "HTML, CSS, JS, jQuery, Bootstrap",
+        "url": "https://moskva-zamki.ru/",
+        "img": "./src/img/moskva-zamki.jpg"
+      },
+      {
+        "title": "vekus.ru",
+        "description": "A website offering equipment repair services and business technology consultations.",
+        "technologies": "1C-Bitrix",
+        "url": "https://www.vekus.ru/",
+        "img": "./src/img/vekus.jpg"
+      },
+      {
+        "title": "aq.ru",
+        "description": "Aquarius produces computers, electronics, and IT solutions for businesses and government institutions.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://www.aq.ru/",
+        "img": "./src/img/aq_ru.jpg"
+      },
+      {
+        "title": "qualcom24.ru",
+        "description": "QualCom provides solutions in the supply of the entire range of IT infrastructure, as well as further support.",
+        "technologies": "Tilda",
+        "url": "https://www.qualcom24.ru/",
+        "img": "./src/img/qualcom24.jpg"
+      },
+      {
+        "title": "rdwcomp.ru",
+        "description": "RDW Technology produces certified computer equipment and offers conditions for partners.",
+        "technologies": "HTML layout",
+        "url": "https://rdwcomp.ru/",
+        "img": "./src/img/rdw.jpg"
+      },
+      {
+        "title": "graviton.ru",
+        "description": "Graviton produces computing equipment and develops Russia's technological independence.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://graviton.ru/",
+        "img": "./src/img/graviton.jpg"
+      }
+    ],
     "section3": {
-      "title": "-",
+      "title": "",
       "section3Cont": [
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         }
       ]
     },
@@ -192,20 +265,94 @@
     "projects": {
       "title": "Проекты"
     },
+
+    "sites": [
+      {
+        "title": "guider.pro",
+        "description": "Сайт, где вы найдете лучшие места для путешествий, отдыха и незабываемых локаций.",
+        "technologies": "Next.js",
+        "url": "https://guider.pro",
+        "img": "./src/img/guider.jpg"
+      },
+      {
+        "title": "oneshottattoo.shop",
+        "description": "Интернет магазин One shot tattoo shop для мастеров татуировки и татуажа.",
+        "technologies": "Moguta",
+        "url": "https://oneshottattoo.shop/",
+        "img": "./src/img/oneshottattoo.shop.png"
+      },
+      {
+        "title": "torkretsovilo.ru",
+        "description": "Сайт показывает услуги и проекты компании в сфере бетона и гидроизоляции, с акцентом на опыт и качество.",
+        "technologies": "WordPress",
+        "url": "https://torkretsovilo.ru/",
+        "img": "./src/img/torkretsovilo.png"
+      },
+      {
+        "title": "sport-calc.com",
+        "description": "Сервис для анализа и прогнозирования спортивных событий с использованием статистики.",
+        "technologies": "WordPress",
+        "url": "https://sport-calc.com/",
+        "img": "./src/img/sport-calc.jpg"
+      },
+      {
+        "title": "moskva-zamki.ru",
+        "description": "Магазин замков и дверной фурнитуры.",
+        "technologies": "HTML, CSS, JS, jQuery, Bootstrap",
+        "url": "https://moskva-zamki.ru/",
+        "img": "./src/img/moskva-zamki.jpg"
+      },
+      {
+        "title": "vekus.ru",
+        "description": "Сайт предлагает услуги по ремонту оборудования и консультации по технологиям для бизнеса.",
+        "technologies": "1C-Битрикс",
+        "url": "https://www.vekus.ru/",
+        "img": "./src/img/vekus.jpg"
+      },
+      {
+        "title": "aq.ru",
+        "description": "«Аквариус» производит компьютеры, электронику и ИТ-решения для бизнеса и госструктур.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://www.aq.ru/",
+        "img": "./src/img/aq_ru.jpg"
+      },
+      {
+        "title": "qualcom24.ru",
+        "description": "QualCom предоставляет решения в области поставок всего спектра ИТ инфраструктуры, а также дальнейшее сопровождение",
+        "technologies": "Tilda",
+        "url": "https://www.qualcom24.ru/",
+        "img": "./src/img/qualcom24.jpg"
+      },
+      {
+        "title": "rdwcomp.ru",
+        "description": "РДВ Технолоджи производит сертифицированную компьютерную технику и предлагает условия для партнёров.",
+        "technologies": "Верстка",
+        "url": "https://rdwcomp.ru/",
+        "img": "./src/img/rdw.jpg"
+      },
+      {
+        "title": "graviton.ru",
+        "description": "«Гравитон» производит вычислительную технику и развивает технологическую независимость России.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://graviton.ru/",
+        "img": "./src/img/graviton.jpg"
+      }
+    ],
+
     "section3": {
-      "title": "-",
+      "title": "",
       "section3Cont": [
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         }
       ]
     },
@@ -298,20 +445,93 @@
     "projects": {
       "title": "Εργα"
     },
+
+    "sites": [
+      {
+        "title": "guider.pro",
+        "description": "Ένας ιστότοπος όπου μπορείτε να βρείτε τα καλύτερα μέρη για ταξίδια, αναψυχή και αξέχαστες τοποθεσίες.",
+        "technologies": "Next.js",
+        "url": "https://guider.pro",
+        "img": "./src/img/guider.jpg"
+      },
+      {
+        "title": "oneshottattoo.shop",
+        "description": "Κατάστημα One Shot Tattoo Shop για καλλιτέχνες τατουάζ και μόνιμου μακιγιάζ.",
+        "technologies": "Moguta",
+        "url": "https://oneshottattoo.shop/",
+        "img": "./src/img/oneshottattoo.shop.png"
+      },
+      {
+        "title": "torkretsovilo.ru",
+        "description": "Ένας ιστότοπος που παρουσιάζει τις υπηρεσίες και τα έργα μιας εταιρείας που ειδικεύεται στο σκυρόδεμα και την υδρομόνωση, με έμφαση στην εμπειρία και την ποιότητα.",
+        "technologies": "WordPress",
+        "url": "https://torkretsovilo.ru/",
+        "img": "./src/img/torkretsovilo.png"
+      },
+      {
+        "title": "sport-calc.com",
+        "description": "Υπηρεσία ανάλυσης και πρόβλεψης αθλητικών γεγονότων χρησιμοποιώντας στατιστικά στοιχεία.",
+        "technologies": "WordPress",
+        "url": "https://sport-calc.com/",
+        "img": "./src/img/sport-calc.jpg"
+      },
+      {
+        "title": "moskva-zamki.ru",
+        "description": "Κατάστημα κλειδαριών και θυροκουμπιών.",
+        "technologies": "HTML, CSS, JS, jQuery, Bootstrap",
+        "url": "https://moskva-zamki.ru/",
+        "img": "./src/img/moskva-zamki.jpg"
+      },
+      {
+        "title": "vekus.ru",
+        "description": "Ιστότοπος που προσφέρει υπηρεσίες επισκευής εξοπλισμού και συμβουλές τεχνολογίας για επιχειρήσεις.",
+        "technologies": "1C-Bitrix",
+        "url": "https://www.vekus.ru/",
+        "img": "./src/img/vekus.jpg"
+      },
+      {
+        "title": "aq.ru",
+        "description": "Η Aquarius παράγει υπολογιστές, ηλεκτρονικά και λύσεις IT για επιχειρήσεις και κρατικούς οργανισμούς.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://www.aq.ru/",
+        "img": "./src/img/aq_ru.jpg"
+      },
+      {
+        "title": "qualcom24.ru",
+        "description": "Η QualCom παρέχει λύσεις στην προμήθεια ολόκληρου του φάσματος της υποδομής πληροφορικής, καθώς και περαιτέρω υποστήριξη.",
+        "technologies": "Tilda",
+        "url": "https://www.qualcom24.ru/",
+        "img": "./src/img/qualcom24.jpg"
+      },
+      {
+        "title": "rdwcomp.ru",
+        "description": "Η RDW Technology παράγει πιστοποιημένο εξοπλισμό υπολογιστών και προσφέρει όρους για συνεργάτες.",
+        "technologies": "HTML layout",
+        "url": "https://rdwcomp.ru/",
+        "img": "./src/img/rdw.jpg"
+      },
+      {
+        "title": "graviton.ru",
+        "description": "Η Graviton παράγει εξοπλισμό υπολογιστών και αναπτύσσει την τεχνολογική ανεξαρτησία της Ρωσίας.",
+        "technologies": "Nuxt.js, Node.js",
+        "url": "https://graviton.ru/",
+        "img": "./src/img/graviton.jpg"
+      }
+    ],
     "section3": {
-      "title": "-",
+      "title": "",
       "section3Cont": [
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         },
         {
-          "name": "-",
-          "description": "-"
+          "name": "",
+          "description": ""
         }
       ]
     },

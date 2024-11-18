@@ -60,6 +60,30 @@ function translation() {
     DG("works").querySelector("h2").innerHTML = writeLeng.projects.title;
     DG("contact").querySelector("h2").innerHTML = writeLeng.contacts.title;
     DG("projects").querySelector("h2").innerHTML = writeLeng.section3.title;
+    DG("works-grid").innerHTML = writeLeng.sites
+      .map((val) => {
+        console.log(val);
+        return `
+        <div class="work-item">
+        <img
+          alt="${val.description}"
+          src="${val.img}"
+        />
+        <div class="work-overlay">
+          <div class="work-text">
+            <h3 class="work-title">${val.title}</h3>
+            <p class="work-description">
+             ${val.description} <br />- ${val.technologies}
+            </p>
+            <a href="${val.url}" target="_blank"
+              >Посетить сайт</a
+            >
+          </div>
+        </div>
+      </div>
+      `;
+      })
+      .join("");
 
     DG("projects-grid").innerHTML = writeLeng.section3.section3Cont
       .map((val) => {

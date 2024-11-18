@@ -129,6 +129,11 @@ const mySkillsData = [
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyqhUPdFVd4l2U-XvXxypZ2G2QVRvPYDB5g&s",
     link: "https://moguta.ru/",
   },
+  {
+    name: "Fusion 360",
+    icon: "https://images.squarespace-cdn.com/content/v1/59752bf3c534a5ea5ddaf3f2/89472539-7211-47aa-bdd2-f53af07d0ea7/Fusion-360-Logo-22-alpha-01.png",
+    link: "https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription#top",
+  },
 ];
 
 mySkillsData.forEach((val) => {
