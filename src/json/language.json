@@ -8,7 +8,7 @@
 
     "aboutMe": {
       "title": "About-me",
-      "aboutMeText": "Frontend developer (JS/TS). The main framework is React.js/Next.js. I have been interested in programming since 2022. I have been actively involved in frontend development since February 2023. During this period, I participated in the Guider startup in Costa Rica, where I was promoted to the position of team lead. I worked remotely in a large company SPORTCALC LTD (Cyprus). In my free time, I do freelance orders. Now I conduct online JavaScript lessons for children.",
+      "aboutMeText": "Frontend Developer (JS/TS). Main framework — React.js/Next.js. Programming since 2020. Working on project-based tasks, in my free time, I teach JavaScript to kids. I live in Limassol, Cyprus.",
       "education": "education",
       "educationText": [
         {
@@ -46,17 +46,7 @@
             "Performance optimization and UX/UI improvements"
           ]
         },
-        {
-          "jobTitle": "Frontend Developer",
-          "company": "sport-calc",
-          "period": "2023-2024",
-          "achievements": [
-            "Development of user interfaces for web applications",
-            "Performance optimization and responsiveness improvements",
-            "API integration for real-time data display",
-            "Collaboration with backend developers to create solutions"
-          ]
-        },
+
         {
           "jobTitle": "Freelance Developer",
           "company": "Freelance Projects",
@@ -107,13 +97,7 @@
         "url": "https://torkretsovilo.ru/",
         "img": "./src/img/torkretsovilo.png"
       },
-      {
-        "title": "sport-calc.com",
-        "description": "A service for analyzing and forecasting sports events using statistics.",
-        "technologies": "WordPress",
-        "url": "https://sport-calc.com/",
-        "img": "./src/img/sport-calc.jpg"
-      },
+
       {
         "title": "moskva-zamki.ru",
         "description": "A store for locks and door hardware.",
@@ -187,7 +171,7 @@
     },
     "aboutMe": {
       "title": "Обо мне",
-      "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Интересуюсь программированием с 2022 года. Активно занимаюсь фронтенд-разработкой с февраля 2023 года. В этот период участвовал в стартапе Guider в Коста-Рике, где был повышен до позиции тимлида. Работал удаленно в крупной компании SPORTCALC LTD (Кипр). В свободное время выполняю фриланс-заказы. Сейчас провожу онлайн-уроки по JavaScript для детей.",
+      "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Программирую с 2020 года. Занимаюсь проектной работой, в свободное время провожу уроки по JavaScript для детей. Живу в Лимассоле, Кипр.",
       "education": "образование",
       "educationText": [
         {
@@ -226,17 +210,7 @@
             "Оптимизация производительности и UX/UI"
           ]
         },
-        {
-          "jobTitle": "Фронтенд-разработчик",
-          "company": "sport-calc",
-          "period": "2023-2024",
-          "achievements": [
-            "Разработка пользовательских интерфейсов для веб-приложений",
-            "Оптимизация производительности и отзывчивости страниц",
-            "Интеграция с API для отображения данных в реальном времени",
-            "Сотрудничество с бэкенд-разработчиками для создания решений"
-          ]
-        },
+
         {
           "jobTitle": "Фриланс-разработчик",
           "company": "Фриланс-проекты",
@@ -288,13 +262,7 @@
         "url": "https://torkretsovilo.ru/",
         "img": "./src/img/torkretsovilo.png"
       },
-      {
-        "title": "sport-calc.com",
-        "description": "Сервис для анализа и прогнозирования спортивных событий с использованием статистики.",
-        "technologies": "WordPress",
-        "url": "https://sport-calc.com/",
-        "img": "./src/img/sport-calc.jpg"
-      },
+
       {
         "title": "moskva-zamki.ru",
         "description": "Магазин замков и дверной фурнитуры.",
@@ -369,7 +337,7 @@
     },
     "aboutMe": {
       "title": "Σχετικά με μένα",
-      "aboutMeText": "Προγραμματιστής Frontend (JS/TS). Το κύριο πλαίσιο είναι το React.js/Next.js. Με ενδιαφέρει ο προγραμματισμός από το 2022. Ασχολούμαι ενεργά με την ανάπτυξη front-end από τον Φεβρουάριο του 2023. Την περίοδο αυτή συμμετείχε στην startup Guider στην Κόστα Ρίκα, όπου προήχθη στη θέση του επικεφαλής της ομάδας. Εργάστηκε εξ αποστάσεως για μια μεγάλη εταιρεία SPORTCALC LTD (Κύπρος). Στον ελεύθερο χρόνο μου εκτελώ παραγγελίες ελεύθερου επαγγελματία. Αυτήν τη στιγμή διδάσκω διαδικτυακά μαθήματα JavaScript για παιδιά.",
+      "aboutMeText": "Frontend Developer (JS/TS). Κύριο πλαίσιο — React.js/Next.js. Προγραμματίζω από το 2020. Ασχολούμαι με έργα, στον ελεύθερο χρόνο μου διδάσκω JavaScript σε παιδιά. Ζω στη Λεμεσό, Κύπρος.",
       "education": "παιδεία",
       "educationText": [
         {
@@ -407,17 +375,7 @@
             "Βελτιστοποίηση απόδοσης και βελτίωση UX/UI"
           ]
         },
-        {
-          "jobTitle": "Frontend Developer",
-          "company": "sport-calc",
-          "period": "2023-2024",
-          "achievements": [
-            "Ανάπτυξη διεπαφών χρήστη για web εφαρμογές",
-            "Βελτιστοποίηση απόδοσης και βελτίωση της ανταπόκρισης σε σελίδες",
-            "Ενσωμάτωση με API για εμφάνιση δεδομένων σε πραγματικό χρόνο",
-            "Συνεργασία με backend developers για τη δημιουργία λύσεων"
-          ]
-        },
+
         {
           "jobTitle": "Freelance Developer",
           "company": "Freelance Projects",
@@ -468,13 +426,7 @@
         "url": "https://torkretsovilo.ru/",
         "img": "./src/img/torkretsovilo.png"
       },
-      {
-        "title": "sport-calc.com",
-        "description": "Υπηρεσία ανάλυσης και πρόβλεψης αθλητικών γεγονότων χρησιμοποιώντας στατιστικά στοιχεία.",
-        "technologies": "WordPress",
-        "url": "https://sport-calc.com/",
-        "img": "./src/img/sport-calc.jpg"
-      },
+
       {
         "title": "moskva-zamki.ru",
         "description": "Κατάστημα κλειδαριών και θυροκουμπιών.",
