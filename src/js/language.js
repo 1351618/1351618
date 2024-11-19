@@ -59,7 +59,7 @@ function translation() {
       .join("");
     DG("works").querySelector("h2").innerHTML = writeLeng.projects.title;
     DG("contact").querySelector("h2").innerHTML = writeLeng.contacts.title;
-    DG("projects").querySelector("h2").innerHTML = writeLeng.section3.title;
+    DG("statistics").querySelector("h2").innerHTML = writeLeng.statistics.title;
     DG("works-grid").innerHTML = writeLeng.sites
       .map((val) => {
         return `
@@ -79,19 +79,6 @@ function translation() {
             >
           </div>
         </div>
-      </div>
-      `;
-      })
-      .join("");
-
-    DG("projects-grid").innerHTML = writeLeng.section3.section3Cont
-      .map((val) => {
-        return `
-      <div class="project-item">
-        <h3 class="project-title">${val.name}</h3>
-        <p class="project-description">
-          ${val.description}
-        </p>
       </div>
       `;
       })

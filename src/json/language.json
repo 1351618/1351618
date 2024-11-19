@@ -141,22 +141,8 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
-    "section3": {
-      "title": "",
-      "section3Cont": [
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        }
-      ]
+    "statistics": {
+      "title": "Statistics"
     },
     "contacts": {
       "title": "contacts"
@@ -307,22 +293,8 @@
       }
     ],
 
-    "section3": {
-      "title": "",
-      "section3Cont": [
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        }
-      ]
+    "statistics": {
+      "title": "Статистика"
     },
     "contacts": {
       "title": "Контакты"
@@ -470,22 +442,8 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
-    "section3": {
-      "title": "",
-      "section3Cont": [
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        },
-        {
-          "name": "",
-          "description": ""
-        }
-      ]
+    "statistics": {
+      "title": "Στατιστικά"
     },
 
     "contacts": {
