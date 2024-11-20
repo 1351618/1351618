@@ -277,6 +277,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 35px;
 }
 
 .skill {
@@ -302,7 +303,7 @@ h2 {
   border-left: 2px solid var(--secondary-color);
   ul {
     li {
-      font-size: 12px;
+      font-size: 13px;
     }
   }
   h3 {
@@ -319,20 +320,27 @@ h2 {
   font-style: italic;
 }
 
-.statistics-grid,
+.otherSkills-grid,
 .works-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
 }
 
-.statistics-grid {
-  width: auto;
-  a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.otherSkills-grid {
+  p {
+    font-size: 13px;
   }
+}
+
+.codewars-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 13px;
   img {
     width: 100%;
   }
@@ -448,8 +456,8 @@ a:hover {
 #education {
   grid-area: education;
 }
-#statistics {
-  grid-area: statistics;
+#otherSkills {
+  grid-area: otherSkills;
 }
 #works {
   grid-area: works;
@@ -462,7 +470,7 @@ a:hover {
   grid-template-areas:
     "header-content header-content headrProfPhoto"
     "skilRunLine skilRunLine skilRunLine"
-    "skills experience statistics"
+    "skills experience otherSkills"
     "education works works"
     "contact works works";
 }
@@ -477,7 +485,7 @@ a:hover {
       "skills"
       "experience"
       "education"
-      "statistics"
+      "otherSkills"
       "works"
       "contact";
   }

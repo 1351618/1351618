@@ -59,7 +59,17 @@ function translation() {
       .join("");
     DG("works").querySelector("h2").innerHTML = writeLeng.projects.title;
     DG("contact").querySelector("h2").innerHTML = writeLeng.contacts.title;
-    DG("statistics").querySelector("h2").innerHTML = writeLeng.statistics.title;
+    DG("otherSkills").querySelector("h2").innerHTML =
+      writeLeng.otherSkills.title;
+
+    DG("otherSkills-grid").innerHTML = writeLeng.otherSkills.list
+      .map((val) => {
+        return `
+        <p>- ${val}</p>
+      `;
+      })
+      .join("");
+
     DG("works-grid").innerHTML = writeLeng.sites
       .map((val) => {
         return `

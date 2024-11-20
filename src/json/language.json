@@ -8,7 +8,7 @@
 
     "aboutMe": {
       "title": "About-me",
-      "aboutMeText": "Frontend Developer (JS/TS). Main framework — React.js/Next.js. Programming since 2020. Working on project-based tasks, in my free time, I teach JavaScript to kids. I live in Limassol, Cyprus.",
+      "aboutMeText": "Frontend Developer (JS/TS). Main frameworks — React.js/Next.js. I have been programming for over 4 years, with 2 years of successful freelancing experience. While I am satisfied with my current income level and the variety of projects, I am now seeking stability, teamwork, and the opportunity to focus on long-term tasks within a single company. I live in Limassol, Cyprus.",
       "education": "education",
       "educationText": [
         {
@@ -37,36 +37,36 @@
       "workplaces": [
         {
           "jobTitle": "Frontend Developer",
+          "company": "Freelancer/Project Work",
+          "period": "12/2022-present",
+          "achievements": [
+            "Development and implementation of frontend for clients",
+            "Working with JavaScript, React, Next.js to create interactive interfaces",
+            "Integration with external services and APIs",
+            "Ensuring cross-browser compatibility and website responsiveness"
+          ]
+        },
+        {
+          "jobTitle": "Frontend Developer",
           "company": "guider.pro",
-          "period": "2024-2024",
+          "period": "07-12/2022",
           "achievements": [
             "Frontend development from scratch to implementation",
-            "Writing 80% of the project's frontend",
-            "API and backend integration",
-            "Performance optimization and UX/UI improvements"
-          ]
-        },
-
-        {
-          "jobTitle": "Freelance Developer",
-          "company": "Freelance Projects",
-          "period": "2024-2024",
-          "achievements": [
-            "Development and implementation of frontend for various clients",
-            "Work with JavaScript, React, Next.js to create interactive interfaces",
-            "Integration with external services and APIs",
-            "Ensuring cross-browser compatibility and responsive websites"
+            "Writing 80% of the frontend for the project",
+            "Integration with API and backend",
+            "Optimizing performance and UX/UI"
           ]
         },
         {
-          "jobTitle": "JavaScript Instructor",
-          "company": "luxkod",
-          "period": "2024-2024",
+          "jobTitle": "Junior Frontend Developer",
+          "company": "JSA IT-company",
+          "period": "03/2021-07/2022",
           "achievements": [
-            "Teaching JavaScript and frontend development fundamentals",
-            "Preparing lesson materials",
-            "Conducting practical sessions and projects",
-            "Assisting students in creating their first projects"
+            "Markup of pages according to the layout",
+            "Setting up and working with CSS/JS animations",
+            "Connecting APIs to the frontend",
+            "Writing and maintaining documentation",
+            "Interface testing"
           ]
         }
       ]
@@ -141,8 +141,18 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
-    "statistics": {
-      "title": "Statistics"
+    "otherSkills": {
+      "title": "Other Skills and Interests",
+      "list": [
+        "English (A2) - continuing to improve",
+        "Responsibility and persistence in solving tasks",
+        "Ability to work in a team",
+        "Constantly learning to enhance professional skills",
+        "Teaching JavaScript to children and teenagers at the Luxkod online school",
+        "Robotics: modeling, assembling, and programming various projects for home and fun",
+        "Chess",
+        "Solving challenges on Codewars"
+      ]
     },
     "contacts": {
       "title": "contacts"
@@ -157,7 +167,7 @@
     },
     "aboutMe": {
       "title": "Обо мне",
-      "aboutMeText": "Фронтенд-разработчик (JS/TS). Основной фреймворк — React.js/Next.js. Программирую с 2020 года. Занимаюсь проектной работой, в свободное время провожу уроки по JavaScript для детей. Живу в Лимассоле, Кипр.",
+      "aboutMeText": "Фронтенд-разработчик (JS/TS).  Основной фреймворк — React.js/Next.js.  Программирую более 4-х лет, из них два года успешно работаю на фрилансе. Меня устраивает текущий уровень дохода и разнообразие проектов, однако сейчас я ищу стабильность, командную работу и возможность углубиться в долгосрочные задачи в одной компании. Живу в Лимассоле, Кипр.",
       "education": "образование",
       "educationText": [
         {
@@ -187,8 +197,19 @@
       "workplaces": [
         {
           "jobTitle": "Фронтенд-разработчик",
+          "company": "Фрилансер/проектная работа",
+          "period": "12/2022-наст.время",
+          "achievements": [
+            "Разработка и внедрение фронтенда для клиентов",
+            "Работа с JavaScript, React, Next.js для создания интерактивных интерфейсов",
+            "Интеграция с внешними сервисами и API",
+            "Обеспечение кроссбраузерной совместимости и адаптивности сайтов"
+          ]
+        },
+        {
+          "jobTitle": "Фронтенд-разработчик",
           "company": "guider.pro",
-          "period": "2024-2024",
+          "period": "07-12/2022",
           "achievements": [
             "Разработка фронтенда с нуля до реализации",
             "Написание 80% фронтенда проекта",
@@ -196,27 +217,16 @@
             "Оптимизация производительности и UX/UI"
           ]
         },
-
         {
-          "jobTitle": "Фриланс-разработчик",
-          "company": "Фриланс-проекты",
-          "period": "2024-2024",
+          "jobTitle": "Junior Фронтенд-разработчик",
+          "company": "JSA IT-company",
+          "period": "03/2021-07/2022",
           "achievements": [
-            "Разработка и внедрение фронтенда для различных клиентов",
-            "Работа с JavaScript, React, Next.js для создания интерактивных интерфейсов",
-            "Интеграция с внешними сервисами и API",
-            "Обеспечение кроссбраузерной совместимости и адаптивности сайтов"
-          ]
-        },
-        {
-          "jobTitle": "Преподаватель JavaScript",
-          "company": "luxkod",
-          "period": "2024-2024",
-          "achievements": [
-            "Преподавание JavaScript и основ фронтенд-разработки",
-            "Подготовка материалов для уроков",
-            "Проведение практических занятий и проектов",
-            "Помощь студентам в создании первых проектов"
+            "Верстка страниц по макету",
+            "Натройка и работа с CSS/JS-анимациями",
+            "Подключение API к фронтенду",
+            "Написание и пооддержка документации",
+            "Тестрование интерфейсов"
           ]
         }
       ]
@@ -293,8 +303,18 @@
       }
     ],
 
-    "statistics": {
-      "title": "Статистика"
+    "otherSkills": {
+      "title": "Другие навыки и интересы",
+      "list": [
+        "Английский (А2) - продолжаю изучение",
+        "Ответственность и упорство в решении задач",
+        "Умение работать в команде",
+        "Постоянно обучаюсь для повышения профессионального уровня",
+        "Преподаю JavaScript детям и подросткам в онлайн-школе Luxkod",
+        "Робототехника: моделирование, сборка и программирование различных проектов для дома и просто для развлечения",
+        "Шахматы",
+        "Решение задач на Codewars"
+      ]
     },
     "contacts": {
       "title": "Контакты"
@@ -309,7 +329,7 @@
     },
     "aboutMe": {
       "title": "Σχετικά με μένα",
-      "aboutMeText": "Frontend Developer (JS/TS). Κύριο πλαίσιο — React.js/Next.js. Προγραμματίζω από το 2020. Ασχολούμαι με έργα, στον ελεύθερο χρόνο μου διδάσκω JavaScript σε παιδιά. Ζω στη Λεμεσό, Κύπρος.",
+      "aboutMeText": "Frontend Developer (JS/TS). Κύρια πλαίσια — React.js/Next.js. Προγραμματίζω για πάνω από 4 χρόνια, εκ των οποίων τα 2 χρόνια εργάζομαι επιτυχώς ως freelancer. Αν και είμαι ικανοποιημένος με το τρέχον επίπεδο εισοδήματος και την ποικιλία των έργων, τώρα αναζητώ σταθερότητα, ομαδική εργασία και τη δυνατότητα να εστιάσω σε μακροπρόθεσμα καθήκοντα σε μία εταιρεία. Ζω στη Λεμεσό, Κύπρος.",
       "education": "παιδεία",
       "educationText": [
         {
@@ -338,36 +358,36 @@
       "workplaces": [
         {
           "jobTitle": "Frontend Developer",
+          "company": "Freelancer/Project Work",
+          "period": "12/2022-present",
+          "achievements": [
+            "Ανάπτυξη και εφαρμογή frontend για πελάτες",
+            "Εργασία με JavaScript, React, Next.js για τη δημιουργία διαδραστικών διεπαφών",
+            "Ενσωμάτωση με εξωτερικές υπηρεσίες και APIs",
+            "Εξασφάλιση συμβατότητας με διαφορετικούς browsers και ανταπόκριση ιστοσελίδων"
+          ]
+        },
+        {
+          "jobTitle": "Frontend Developer",
           "company": "guider.pro",
-          "period": "2024-2024",
+          "period": "07-12/2022",
           "achievements": [
             "Ανάπτυξη frontend από την αρχή μέχρι την υλοποίηση",
-            "Συγγραφή του 80% του frontend του έργου",
-            "Ενσωμάτωση με API και το backend",
-            "Βελτιστοποίηση απόδοσης και βελτίωση UX/UI"
-          ]
-        },
-
-        {
-          "jobTitle": "Freelance Developer",
-          "company": "Freelance Projects",
-          "period": "2024-2024",
-          "achievements": [
-            "Ανάπτυξη και υλοποίηση frontend για διάφορους πελάτες",
-            "Εργασία με JavaScript, React, Next.js για δημιουργία διαδραστικών διεπαφών",
-            "Ενσωμάτωση με εξωτερικές υπηρεσίες και APIs",
-            "Εξασφάλιση συμβατότητας με διάφορους browsers και responsive ιστοσελίδες"
+            "Σύνταξη του 80% του frontend του έργου",
+            "Ενσωμάτωση με API και backend",
+            "Βελτιστοποίηση απόδοσης και UX/UI"
           ]
         },
         {
-          "jobTitle": "Δάσκαλος JavaScript",
-          "company": "luxkod",
-          "period": "2024-2024",
+          "jobTitle": "Junior Frontend Developer",
+          "company": "JSA IT-company",
+          "period": "03/2021-07/2022",
           "achievements": [
-            "Διδασκαλία JavaScript και των βασικών αρχών ανάπτυξης frontend",
-            "Προετοιμασία μαθησιακών υλικών",
-            "Διεξαγωγή πρακτικών μαθημάτων και έργων",
-            "Βοήθεια στους μαθητές για την ανάπτυξη των πρώτων τους έργων"
+            "Σχεδίαση σελίδων σύμφωνα με το layout",
+            "Ρύθμιση και εργασία με CSS/JS animations",
+            "Σύνδεση APIs με το frontend",
+            "Σύνταξη και συντήρηση τεκμηρίωσης",
+            "Δοκιμή διεπαφών"
           ]
         }
       ]
@@ -442,8 +462,18 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
-    "statistics": {
-      "title": "Στατιστικά"
+    "otherSkills": {
+      "title": "Άλλες Δεξιότητες και Ενδιαφέροντα",
+      "list": [
+        "Αγγλικά (A2) - συνεχίζω να βελτιώνομαι",
+        "Υπευθυνότητα και επιμονή στην επίλυση προβλημάτων",
+        "Ικανότητα εργασίας σε ομάδα",
+        "Συνεχής εκμάθηση για την ενίσχυση επαγγελματικών δεξιοτήτων",
+        "Διδασκαλία JavaScript σε παιδιά και εφήβους στο διαδικτυακό σχολείο Luxkod",
+        "Ρομποτική: μοντελοποίηση, συναρμολόγηση και προγραμματισμός διαφόρων έργων για το σπίτι και για διασκέδαση",
+        "Σκάκι",
+        "Επίλυση προβλημάτων στο Codewars"
+      ]
     },
 
     "contacts": {
