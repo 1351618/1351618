@@ -62,13 +62,14 @@ function translation() {
     DG("otherSkills").querySelector("h2").innerHTML =
       writeLeng.otherSkills.title;
 
-    DG("otherSkills-grid").innerHTML = writeLeng.otherSkills.list
-      .map((val) => {
-        return `
-        <p>- ${val}</p>
-      `;
-      })
-      .join("");
+    DG("otherSkills-grid").innerHTML =
+      `<ul>` +
+      writeLeng.otherSkills.list
+        .map((val) => {
+          return `<li>${val}</li>`;
+        })
+        .join("") +
+      `</ul>`;
 
     DG("works-grid").innerHTML = writeLeng.sites
       .map((val) => {
