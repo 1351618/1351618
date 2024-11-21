@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="./src/css/index.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./src/icons/rezyume_ergwctvhn8ar.ico"
+    />
     <title>Сергей Кожемяки</title>
   </head>
   <body>
@@ -78,13 +83,13 @@
         <h2></h2>
         <span class="lineSection"></span>
         <!-- сделать вкладки для разделов -->
-        <!-- <div>
-          <button id="site">сайты</button>
-          <button id="layout">верстка</button>
-          <button id="animation">анимация</button>
-        </div> -->
+        <div class="hide" id="worksTaleBtnS">
+          <button class="table-btn" id="site">сайты</button>
+          <button class="table-btn" id="animation">анимация</button>
+        </div>
         <div class="works-grid" id="works-grid"></div>
-        <div></div>
+
+        <div class="works-animation" id="works-animation"></div>
         <div></div>
       </section>
 
@@ -132,19 +137,32 @@
             <p>1351618@gmail.com</p>
           </a>
         </div>
+        <div class="contact-item">
+          <i class="fab fa-quantum-github"></i>
+          <a
+            href="./src/files/CV Frontend_Kozhemiakin Sergei_eng+rus.pdf"
+            target="_blank"
+          >
+            <img src="./src/icons/pdfIcon.svg" alt="SVG Image" />
+
+            PDF <br />
+            en ru
+          </a>
+        </div>
       </section>
     </div>
 
-    <nav class="nav">
+    <!-- <nav class="nav">
       <a class="active" href="#section0"></a>
       <a href="#section1"></a>
       <a href="#section2"></a>
       <a href="#section3"></a>
-    </nav>
+    </nav> -->
 
     <script src="./src/js/index.js" type="module"></script>
     <script src="./src/js/mySkills.js" type="module"></script>
     <script src="./src/js/language.js" type="module"></script>
+    <script src="./src/js/worksTable.js" type="module"></script>
 
     <svg width="0" height="0">
       <filter id="turbulence" x="0" y="0" width="100%" height="100%">
@@ -166,13 +184,6 @@
       </filter>
     </svg>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const lines = document.querySelectorAll(".lineSection");
-        lines.forEach((line, index) => {
-          line.style.height = `${Math.random() * 2 + 1}px`;
-        });
-      });
-    </script>
+    <script src="./src/js/animation.js" type="module"></script>
   </body>
 </html>

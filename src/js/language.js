@@ -57,6 +57,7 @@ function translation() {
             </div>`;
       })
       .join("");
+
     DG("works").querySelector("h2").innerHTML = writeLeng.projects.title;
     DG("contact").querySelector("h2").innerHTML = writeLeng.contacts.title;
     DG("otherSkills").querySelector("h2").innerHTML =
@@ -105,6 +106,34 @@ function translation() {
         <p>
         ${val.specialty}
         </p>
+      </div>
+        `;
+      })
+      .join("");
+
+    DG("works-animation").innerHTML = writeLeng.animation
+      .map((val) => {
+        return `
+        <div class="works-animation_item">
+        <p class="wai-name">${val.neme}</p>
+        <iframe
+          src="${val.iframe}"
+          style="border: none"
+        >
+        </iframe>
+
+        <a
+          class="wai-link"
+          href="${val.iframe}"
+          target="_blank"
+          >link</a
+        >
+        <a
+          class="wai-git"
+          href="${val.git}"
+          target="_blank"
+          >git</a
+        >
       </div>
         `;
       })

@@ -141,6 +141,13 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
+    "animation": [
+      {
+        "neme": "jellyfish",
+        "git": "https://github.com/1351618/jellyfish",
+        "iframe": "https://1351618.github.io/jellyfish/"
+      }
+    ],
     "otherSkills": {
       "title": "Other Skills and Interests",
       "list": [
@@ -302,6 +309,13 @@
         "img": "./src/img/graviton.jpg"
       }
     ],
+    "animation": [
+      {
+        "neme": "jellyfish",
+        "git": "https://github.com/1351618/jellyfish",
+        "iframe": "https://1351618.github.io/jellyfish/"
+      }
+    ],
 
     "otherSkills": {
       "title": "Другие навыки и интересы",
@@ -460,6 +474,13 @@
         "technologies": "Nuxt.js, Node.js",
         "url": "https://graviton.ru/",
         "img": "./src/img/graviton.jpg"
+      }
+    ],
+    "animation": [
+      {
+        "neme": "jellyfish",
+        "git": "https://github.com/1351618/jellyfish",
+        "iframe": "https://1351618.github.io/jellyfish/"
       }
     ],
     "otherSkills": {

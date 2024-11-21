@@ -15,6 +15,9 @@
   margin: 0;
   padding: 0;
 }
+.hide {
+  display: none !important;
+}
 
 // общие
 .lineSection {
@@ -322,7 +325,8 @@ h2 {
 }
 
 .otherSkills-grid,
-.works-grid {
+.works-grid,
+.works-animation {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
@@ -331,6 +335,35 @@ h2 {
 .otherSkills-grid {
   p {
     font-size: 13px;
+  }
+}
+
+.works-animation_item {
+  position: relative;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #00ff9d0d;
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .wai-name {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+  }
+
+  a {
+    position: absolute;
+    bottom: 2px;
+  }
+  .wai-link {
+    right: 6px;
+  }
+  .wai-git {
+    left: 6px;
   }
 }
 
@@ -422,6 +455,9 @@ h2 {
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+  img {
+    height: 40px;
+  }
 }
 
 .contact-item i {
@@ -434,6 +470,7 @@ a {
   transition: color 0.3s ease;
   display: flex;
   gap: 10px;
+  line-height: 20px;
 }
 
 a:hover {
@@ -604,3 +641,76 @@ a:hover {
     filter: url("#turbulence");
   }
 }
+
+// table-btn start =============
+
+#worksTaleBtnS {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 9px;
+  padding-bottom: 10px;
+}
+.table-btn {
+  padding: 4px 4px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #ff4e50, #f9d423);
+}
+
+.table-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.table-btn:hover::before {
+  left: 100%;
+}
+
+.table-btn:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 5px 30px rgba(255, 78, 80, 0.6);
+}
+
+.table-btn:active {
+  transform: translateY(2px);
+}
+
+@keyframes attention {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 78, 80, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 10px rgba(255, 78, 80, 0.3);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 78, 80, 0);
+  }
+}
+
+.animated {
+  animation: attention 1.5s infinite;
+}
+
+// table-btn end =======================
