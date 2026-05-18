@@ -6,7 +6,7 @@
   </a>
 </h1>
 
-<!-- ___🌐Socials, 📚Codewars, 💰Donating_______ -->
+<!-- ___🌐Socials, 📚Codewars, 💰Donating_______ 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>  
   <h5 style="color: #03ad03; text-shadow: 0px 0px 1px #03ad03, 0px 0px 2px #03ad03;">🌐 Socials:</h5>
@@ -15,6 +15,7 @@
     <a href="https://wa.me/79939231608"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" width="32" height="32" alt="WhatsApp" style="margin-right: 10px;" /></a>
 
   </div>
+  -->
   <div>
     <h5 style="color: #03ad03; text-shadow: 0px 0px 1px #03ad03, 0px 0px 2px #03ad03;">📚 Codewars:</h5>
     <a href="https://www.codewars.com/users/1351618">
